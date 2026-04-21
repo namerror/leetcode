@@ -2,7 +2,8 @@
 This repository contains my solutions to various [LeetCode problems](https://leetcode.com/problemset/all/). I'm only doing leetcode for fun - no stress.
 
 ## Index
-Total count: 5
+Total count: 6
+- [62. Unique Paths](62_Unique_Paths.py)
 - [70. Climbing Stairs](70_Climbing_Stairs.py)
 - [198. House Robber](198_House_Robber.py)
 - [509. Fibonacci Number](509_Fibonacci_Number.py)
