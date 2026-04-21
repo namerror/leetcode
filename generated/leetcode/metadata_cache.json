@@ -1,0 +1,140 @@
+{
+  "problems": {
+    "1137": {
+      "difficulty": "Easy",
+      "question_frontend_id": 1137,
+      "title": "N-th Tribonacci Number",
+      "title_slug": "n-th-tribonacci-number",
+      "topic_tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Memoization",
+          "slug": "memoization"
+        }
+      ]
+    },
+    "198": {
+      "difficulty": "Medium",
+      "question_frontend_id": 198,
+      "title": "House Robber",
+      "title_slug": "house-robber",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        }
+      ]
+    },
+    "509": {
+      "difficulty": "Easy",
+      "question_frontend_id": 509,
+      "title": "Fibonacci Number",
+      "title_slug": "fibonacci-number",
+      "topic_tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Recursion",
+          "slug": "recursion"
+        },
+        {
+          "name": "Memoization",
+          "slug": "memoization"
+        }
+      ]
+    },
+    "62": {
+      "difficulty": "Medium",
+      "question_frontend_id": 62,
+      "title": "Unique Paths",
+      "title_slug": "unique-paths",
+      "topic_tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Combinatorics",
+          "slug": "combinatorics"
+        }
+      ]
+    },
+    "70": {
+      "difficulty": "Easy",
+      "question_frontend_id": 70,
+      "title": "Climbing Stairs",
+      "title_slug": "climbing-stairs",
+      "topic_tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Memoization",
+          "slug": "memoization"
+        }
+      ]
+    },
+    "740": {
+      "difficulty": "Medium",
+      "question_frontend_id": 740,
+      "title": "Delete and Earn",
+      "title_slug": "delete-and-earn",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        }
+      ]
+    },
+    "746": {
+      "difficulty": "Easy",
+      "question_frontend_id": 746,
+      "title": "Min Cost Climbing Stairs",
+      "title_slug": "min-cost-climbing-stairs",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        }
+      ]
+    }
+  }
+}
