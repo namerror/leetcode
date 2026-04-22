@@ -1,33 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="328" viewBox="0 0 760 328" role="img" aria-label="LeetCode topic coverage">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="362" viewBox="0 0 760 362" role="img" aria-label="LeetCode topic coverage">
 <rect width="100%" height="100%" fill="#ffffff" rx="16" />
 <text x="20" y="30" font-size="18" font-weight="700" fill="#1f2933">Top topic coverage</text>
 <text x="20" y="48" font-size="12" fill="#52606d">Top 10 topics by solved problem count</text>
 <text x="20" y="78" font-size="13" fill="#1f2933">Dynamic Programming</text>
 <rect x="220" y="64" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="64" width="464" height="18" fill="#2563eb" rx="6" />
-<text x="692" y="78" font-size="13" fill="#1f2933">7</text>
-<text x="20" y="112" font-size="13" fill="#1f2933">Math</text>
+<text x="692" y="78" font-size="13" fill="#1f2933">8</text>
+<text x="20" y="112" font-size="13" fill="#1f2933">Array</text>
 <rect x="220" y="98" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="98" width="265" height="18" fill="#2563eb" rx="6" />
-<text x="493" y="112" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="146" font-size="13" fill="#1f2933">Array</text>
+<rect x="220" y="98" width="232" height="18" fill="#2563eb" rx="6" />
+<text x="460" y="112" font-size="13" fill="#1f2933">4</text>
+<text x="20" y="146" font-size="13" fill="#1f2933">Math</text>
 <rect x="220" y="132" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="132" width="198" height="18" fill="#2563eb" rx="6" />
-<text x="426" y="146" font-size="13" fill="#1f2933">3</text>
+<rect x="220" y="132" width="232" height="18" fill="#2563eb" rx="6" />
+<text x="460" y="146" font-size="13" fill="#1f2933">4</text>
 <text x="20" y="180" font-size="13" fill="#1f2933">Memoization</text>
 <rect x="220" y="166" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="166" width="198" height="18" fill="#2563eb" rx="6" />
-<text x="426" y="180" font-size="13" fill="#1f2933">3</text>
-<text x="20" y="214" font-size="13" fill="#1f2933">Combinatorics</text>
+<rect x="220" y="166" width="174" height="18" fill="#2563eb" rx="6" />
+<text x="402" y="180" font-size="13" fill="#1f2933">3</text>
+<text x="20" y="214" font-size="13" fill="#1f2933">Binary Search</text>
 <rect x="220" y="200" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="200" width="66" height="18" fill="#2563eb" rx="6" />
-<text x="294" y="214" font-size="13" fill="#1f2933">1</text>
-<text x="20" y="248" font-size="13" fill="#1f2933">Hash Table</text>
+<rect x="220" y="200" width="58" height="18" fill="#2563eb" rx="6" />
+<text x="286" y="214" font-size="13" fill="#1f2933">1</text>
+<text x="20" y="248" font-size="13" fill="#1f2933">Combinatorics</text>
 <rect x="220" y="234" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="234" width="66" height="18" fill="#2563eb" rx="6" />
-<text x="294" y="248" font-size="13" fill="#1f2933">1</text>
-<text x="20" y="282" font-size="13" fill="#1f2933">Recursion</text>
+<rect x="220" y="234" width="58" height="18" fill="#2563eb" rx="6" />
+<text x="286" y="248" font-size="13" fill="#1f2933">1</text>
+<text x="20" y="282" font-size="13" fill="#1f2933">Hash Table</text>
 <rect x="220" y="268" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="268" width="66" height="18" fill="#2563eb" rx="6" />
-<text x="294" y="282" font-size="13" fill="#1f2933">1</text>
+<rect x="220" y="268" width="58" height="18" fill="#2563eb" rx="6" />
+<text x="286" y="282" font-size="13" fill="#1f2933">1</text>
+<text x="20" y="316" font-size="13" fill="#1f2933">Recursion</text>
+<rect x="220" y="302" width="464" height="18" fill="#e5e7eb" rx="6" />
+<rect x="220" y="302" width="58" height="18" fill="#2563eb" rx="6" />
+<text x="286" y="316" font-size="13" fill="#1f2933">1</text>
 </svg>

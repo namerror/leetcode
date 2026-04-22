@@ -36,6 +36,26 @@
         }
       ]
     },
+    "300": {
+      "difficulty": "Medium",
+      "question_frontend_id": 300,
+      "title": "Longest Increasing Subsequence",
+      "title_slug": "longest-increasing-subsequence",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        }
+      ]
+    },
     "509": {
       "difficulty": "Easy",
       "question_frontend_id": 509,

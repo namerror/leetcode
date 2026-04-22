@@ -3,7 +3,7 @@ This repository contains my solutions to various [LeetCode problems](https://lee
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 7 problems. Easy: 4, Medium: 3, Hard: 0.
+Solved 8 problems. Easy: 4, Medium: 4, Hard: 0.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -12,20 +12,22 @@ Solved 7 problems. Easy: 4, Medium: 3, Hard: 0.
 
 | Topic | Solved |
 | --- | ---: |
-| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 7 |
+| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 8 |
+| [Array](https://leetcode.com/tag/array/) | 4 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
-| [Array](https://leetcode.com/tag/array/) | 3 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
+| [Binary Search](https://leetcode.com/tag/binary-search/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 1 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 7
+Total count: 8
 - [62. Unique Paths](62_Unique_Paths.py) ([LeetCode](https://leetcode.com/problems/unique-paths/))
 - [70. Climbing Stairs](70_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
 - [198. House Robber](198_House_Robber.py) ([LeetCode](https://leetcode.com/problems/house-robber/))
+- [300. Longest Increasing Subsequence](300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
 - [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
 - [746. Min Cost Climbing Stairs](746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
