@@ -1,0 +1,45 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - "**"
+    tags-ignore:
+      - "**"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate README dashboard
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python -B Markdown_formatter.py
+
+      - name: Commit updated README assets
+        run: |
+          if git diff --quiet -- README.md generated/leetcode; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md generated/leetcode
+          git commit -m "Update README dashboard [skip ci]"
+          git push
