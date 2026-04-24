@@ -100,6 +100,26 @@
         }
       ]
     },
+    "64": {
+      "difficulty": "Medium",
+      "question_frontend_id": 64,
+      "title": "Minimum Path Sum",
+      "title_slug": "minimum-path-sum",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
+        }
+      ]
+    },
     "70": {
       "difficulty": "Easy",
       "question_frontend_id": 70,
