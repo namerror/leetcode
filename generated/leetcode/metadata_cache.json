@@ -1,5 +1,21 @@
 {
   "problems": {
+    "1": {
+      "difficulty": "Easy",
+      "question_frontend_id": 1,
+      "title": "Two Sum",
+      "title_slug": "two-sum",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        }
+      ]
+    },
     "1137": {
       "difficulty": "Easy",
       "question_frontend_id": 1137,
@@ -36,6 +52,26 @@
         }
       ]
     },
+    "217": {
+      "difficulty": "Easy",
+      "question_frontend_id": 217,
+      "title": "Contains Duplicate",
+      "title_slug": "contains-duplicate",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ]
+    },
     "300": {
       "difficulty": "Medium",
       "question_frontend_id": 300,
@@ -53,6 +89,30 @@
         {
           "name": "Dynamic Programming",
           "slug": "dynamic-programming"
+        }
+      ]
+    },
+    "49": {
+      "difficulty": "Medium",
+      "question_frontend_id": 49,
+      "title": "Group Anagrams",
+      "title_slug": "group-anagrams",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
         }
       ]
     },
