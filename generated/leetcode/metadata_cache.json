@@ -36,6 +36,26 @@
         }
       ]
     },
+    "128": {
+      "difficulty": "Medium",
+      "question_frontend_id": 128,
+      "title": "Longest Consecutive Sequence",
+      "title_slug": "longest-consecutive-sequence",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Union-Find",
+          "slug": "union-find"
+        }
+      ]
+    },
     "198": {
       "difficulty": "Medium",
       "question_frontend_id": 198,
@@ -65,6 +85,26 @@
         {
           "name": "Hash Table",
           "slug": "hash-table"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ]
+    },
+    "242": {
+      "difficulty": "Easy",
+      "question_frontend_id": 242,
+      "title": "Valid Anagram",
+      "title_slug": "valid-anagram",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
         },
         {
           "name": "Sorting",
