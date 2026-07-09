@@ -36,6 +36,22 @@
         }
       ]
     },
+    "125": {
+      "difficulty": "Easy",
+      "question_frontend_id": 125,
+      "title": "Valid Palindrome",
+      "title_slug": "valid-palindrome",
+      "topic_tags": [
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        }
+      ]
+    },
     "128": {
       "difficulty": "Medium",
       "question_frontend_id": 128,
