@@ -6,6 +6,8 @@ on:
       - "**"
     tags-ignore:
       - "**"
+    paths-ignore:
+      - "learning_examples/**"
 
 permissions:
   contents: write

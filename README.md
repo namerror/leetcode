@@ -1,6 +1,8 @@
 # LeedCode Solutions
 This repository contains my solutions to various [LeetCode problems](https://leetcode.com/problemset/all/). I'm only doing leetcode for fun - no stress.
 
+Non-LeetCode algorithm notes and examples live in [learning_examples](learning_examples/).
+
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
 Solved 16 problems. Easy: 8, Medium: 8, Hard: 0.
