@@ -16,6 +16,26 @@
         }
       ]
     },
+    "11": {
+      "difficulty": "Medium",
+      "question_frontend_id": 11,
+      "title": "Container With Most Water",
+      "title_slug": "container-with-most-water",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        }
+      ]
+    },
     "1137": {
       "difficulty": "Easy",
       "question_frontend_id": 1137,
@@ -33,6 +53,22 @@
         {
           "name": "Memoization",
           "slug": "memoization"
+        }
+      ]
+    },
+    "121": {
+      "difficulty": "Easy",
+      "question_frontend_id": 121,
+      "title": "Best Time to Buy and Sell Stock",
+      "title_slug": "best-time-to-buy-and-sell-stock",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
         }
       ]
     },
@@ -237,6 +273,26 @@
         {
           "name": "Memoization",
           "slug": "memoization"
+        }
+      ]
+    },
+    "53": {
+      "difficulty": "Medium",
+      "question_frontend_id": 53,
+      "title": "Maximum Subarray",
+      "title_slug": "maximum-subarray",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Divide and Conquer",
+          "slug": "divide-and-conquer"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
         }
       ]
     },
