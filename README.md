@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 16 problems. Easy: 8, Medium: 8, Hard: 0.
+Solved 18 problems. Easy: 8, Medium: 10, Hard: 0.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,24 +14,26 @@ Solved 16 problems. Easy: 8, Medium: 8, Hard: 0.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 10 |
+| [Array](https://leetcode.com/tag/array/) | 12 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 10 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 6 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
+| [Sorting](https://leetcode.com/tag/sorting/) | 4 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
-| [Sorting](https://leetcode.com/tag/sorting/) | 3 |
 | [String](https://leetcode.com/tag/string/) | 3 |
+| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 3 |
+| [Binary Search](https://leetcode.com/tag/binary-search/) | 2 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 2 |
-| [Binary Search](https://leetcode.com/tag/binary-search/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
+| [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 1 |
-| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 1 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 16
+Total count: 18
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
+- [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
 - [49. Group Anagrams](49_Group_Anagrams.py) ([LeetCode](https://leetcode.com/problems/group-anagrams/))
 - [62. Unique Paths](62_Unique_Paths.py) ([LeetCode](https://leetcode.com/problems/unique-paths/))
 - [63. Unique Paths II](63_Unique_Paths_II.py) ([LeetCode](https://leetcode.com/problems/unique-paths-ii/))
@@ -39,6 +41,7 @@ Total count: 16
 - [70. Climbing Stairs](70_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
 - [125. Valid Palindrome](125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
 - [128. Longest Consecutive Sequence](128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
+- [167. Two Sum II - Input Array Is Sorted](167_Two_Sum_II_Input_Array_Is_Sorted.py) ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
 - [198. House Robber](198_House_Robber.py) ([LeetCode](https://leetcode.com/problems/house-robber/))
 - [217. Contains Duplicate](217_Contains_Duplicate.py) ([LeetCode](https://leetcode.com/problems/contains-duplicate/))
 - [242. Valid Anagram](242_Valid_Anagram.py) ([LeetCode](https://leetcode.com/problems/valid-anagram/))

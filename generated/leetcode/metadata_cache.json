@@ -72,6 +72,46 @@
         }
       ]
     },
+    "15": {
+      "difficulty": "Medium",
+      "question_frontend_id": 15,
+      "title": "3Sum",
+      "title_slug": "3sum",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ]
+    },
+    "167": {
+      "difficulty": "Medium",
+      "question_frontend_id": 167,
+      "title": "Two Sum II - Input Array Is Sorted",
+      "title_slug": "two-sum-ii-input-array-is-sorted",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        }
+      ]
+    },
     "198": {
       "difficulty": "Medium",
       "question_frontend_id": 198,
@@ -145,6 +185,10 @@
         {
           "name": "Dynamic Programming",
           "slug": "dynamic-programming"
+        },
+        {
+          "name": "Longest Increasing Subsequence",
+          "slug": "longest-increasing-subsequence"
         }
       ]
     },
