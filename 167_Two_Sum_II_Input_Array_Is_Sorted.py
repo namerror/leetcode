@@ -1,3 +1,4 @@
+# Accepted
 # My original implementation O(nlogn) is like this:
         # for i in range(0, len(numbers)):
         #     i2 = binarySearch(target - numbers[i], i+1, len(numbers)-1)
