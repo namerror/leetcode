@@ -9,6 +9,8 @@ Return the maximum amount of water a container can store.
 Notice that you may not slant the container.
 '''
 
+from typing import List
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         left = 0
