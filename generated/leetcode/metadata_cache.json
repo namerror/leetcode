@@ -184,6 +184,22 @@
         }
       ]
     },
+    "238": {
+      "difficulty": "Medium",
+      "question_frontend_id": 238,
+      "title": "Product of Array Except Self",
+      "title_slug": "product-of-array-except-self",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Prefix Sum",
+          "slug": "prefix-sum"
+        }
+      ]
+    },
     "242": {
       "difficulty": "Easy",
       "question_frontend_id": 242,

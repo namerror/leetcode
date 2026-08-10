@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 21 problems. Easy: 9, Medium: 12, Hard: 0.
+Solved 22 problems. Easy: 9, Medium: 13, Hard: 0.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,7 +14,7 @@ Solved 21 problems. Easy: 9, Medium: 12, Hard: 0.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 15 |
+| [Array](https://leetcode.com/tag/array/) | 16 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 12 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 6 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
@@ -28,12 +28,13 @@ Solved 21 problems. Easy: 9, Medium: 12, Hard: 0.
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 1 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
+| [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 1 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 21
+Total count: 22
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -49,6 +50,7 @@ Total count: 21
 - [167. Two Sum II - Input Array Is Sorted](167_Two_Sum_II_Input_Array_Is_Sorted.py) ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
 - [198. House Robber](198_House_Robber.py) ([LeetCode](https://leetcode.com/problems/house-robber/))
 - [217. Contains Duplicate](217_Contains_Duplicate.py) ([LeetCode](https://leetcode.com/problems/contains-duplicate/))
+- [238. Product of Array Except Self](238_Product_of_Array_Except_Self.py) ([LeetCode](https://leetcode.com/problems/product-of-array-except-self/))
 - [242. Valid Anagram](242_Valid_Anagram.py) ([LeetCode](https://leetcode.com/problems/valid-anagram/))
 - [300. Longest Increasing Subsequence](300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
