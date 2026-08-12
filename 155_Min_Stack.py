@@ -1,4 +1,4 @@
-# Accepted
+# Accepted, note that bit shift needs to be in parentheses as - takes precedence over <<
 '''
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
