@@ -1,4 +1,4 @@
-# Accepted, solution O(len(nums1) + len(nums2))
+# Accepted, solution O(len(nums1) + len(nums2)) with stack
 '''
 The next greater element of some element x in an array is the first greater element that is to the right of x in the same array.
 
