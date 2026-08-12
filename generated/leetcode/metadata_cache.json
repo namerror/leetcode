@@ -452,6 +452,26 @@
         }
       ]
     },
+    "739": {
+      "difficulty": "Medium",
+      "question_frontend_id": 739,
+      "title": "Daily Temperatures",
+      "title_slug": "daily-temperatures",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Monotonic Stack",
+          "slug": "monotonic-stack"
+        }
+      ]
+    },
     "740": {
       "difficulty": "Medium",
       "question_frontend_id": 740,
