@@ -5,41 +5,41 @@
 <text x="20" y="78" font-size="13" fill="#1f2933">Array</text>
 <rect x="220" y="64" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="64" width="464" height="18" fill="#2563eb" rx="6" />
-<text x="692" y="78" font-size="13" fill="#1f2933">16</text>
+<text x="692" y="78" font-size="13" fill="#1f2933">17</text>
 <text x="20" y="112" font-size="13" fill="#1f2933">Dynamic Programming</text>
 <rect x="220" y="98" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="98" width="348" height="18" fill="#2563eb" rx="6" />
-<text x="576" y="112" font-size="13" fill="#1f2933">12</text>
+<rect x="220" y="98" width="327" height="18" fill="#2563eb" rx="6" />
+<text x="555" y="112" font-size="13" fill="#1f2933">12</text>
 <text x="20" y="146" font-size="13" fill="#1f2933">Hash Table</text>
 <rect x="220" y="132" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="132" width="174" height="18" fill="#2563eb" rx="6" />
-<text x="402" y="146" font-size="13" fill="#1f2933">6</text>
+<rect x="220" y="132" width="191" height="18" fill="#2563eb" rx="6" />
+<text x="419" y="146" font-size="13" fill="#1f2933">7</text>
 <text x="20" y="180" font-size="13" fill="#1f2933">Math</text>
 <rect x="220" y="166" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="166" width="116" height="18" fill="#2563eb" rx="6" />
-<text x="344" y="180" font-size="13" fill="#1f2933">4</text>
+<rect x="220" y="166" width="109" height="18" fill="#2563eb" rx="6" />
+<text x="337" y="180" font-size="13" fill="#1f2933">4</text>
 <text x="20" y="214" font-size="13" fill="#1f2933">Sorting</text>
 <rect x="220" y="200" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="200" width="116" height="18" fill="#2563eb" rx="6" />
-<text x="344" y="214" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="248" font-size="13" fill="#1f2933">Two Pointers</text>
+<rect x="220" y="200" width="109" height="18" fill="#2563eb" rx="6" />
+<text x="337" y="214" font-size="13" fill="#1f2933">4</text>
+<text x="20" y="248" font-size="13" fill="#1f2933">String</text>
 <rect x="220" y="234" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="234" width="116" height="18" fill="#2563eb" rx="6" />
-<text x="344" y="248" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="282" font-size="13" fill="#1f2933">Memoization</text>
+<rect x="220" y="234" width="109" height="18" fill="#2563eb" rx="6" />
+<text x="337" y="248" font-size="13" fill="#1f2933">4</text>
+<text x="20" y="282" font-size="13" fill="#1f2933">Two Pointers</text>
 <rect x="220" y="268" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="268" width="87" height="18" fill="#2563eb" rx="6" />
-<text x="315" y="282" font-size="13" fill="#1f2933">3</text>
-<text x="20" y="316" font-size="13" fill="#1f2933">String</text>
+<rect x="220" y="268" width="109" height="18" fill="#2563eb" rx="6" />
+<text x="337" y="282" font-size="13" fill="#1f2933">4</text>
+<text x="20" y="316" font-size="13" fill="#1f2933">Memoization</text>
 <rect x="220" y="302" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="302" width="87" height="18" fill="#2563eb" rx="6" />
-<text x="315" y="316" font-size="13" fill="#1f2933">3</text>
-<text x="20" y="350" font-size="13" fill="#1f2933">Binary Search</text>
+<rect x="220" y="302" width="81" height="18" fill="#2563eb" rx="6" />
+<text x="309" y="316" font-size="13" fill="#1f2933">3</text>
+<text x="20" y="350" font-size="13" fill="#1f2933">Stack</text>
 <rect x="220" y="336" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="336" width="58" height="18" fill="#2563eb" rx="6" />
-<text x="286" y="350" font-size="13" fill="#1f2933">2</text>
-<text x="20" y="384" font-size="13" fill="#1f2933">Matrix</text>
+<rect x="220" y="336" width="81" height="18" fill="#2563eb" rx="6" />
+<text x="309" y="350" font-size="13" fill="#1f2933">3</text>
+<text x="20" y="384" font-size="13" fill="#1f2933">Binary Search</text>
 <rect x="220" y="370" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="370" width="58" height="18" fill="#2563eb" rx="6" />
-<text x="286" y="384" font-size="13" fill="#1f2933">2</text>
+<rect x="220" y="370" width="54" height="18" fill="#2563eb" rx="6" />
+<text x="282" y="384" font-size="13" fill="#1f2933">2</text>
 </svg>

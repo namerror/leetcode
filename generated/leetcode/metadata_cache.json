@@ -128,6 +128,22 @@
         }
       ]
     },
+    "155": {
+      "difficulty": "Medium",
+      "question_frontend_id": 155,
+      "title": "Min Stack",
+      "title_slug": "min-stack",
+      "topic_tags": [
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Design",
+          "slug": "design"
+        }
+      ]
+    },
     "167": {
       "difficulty": "Medium",
       "question_frontend_id": 167,
@@ -161,6 +177,26 @@
         {
           "name": "Dynamic Programming",
           "slug": "dynamic-programming"
+        }
+      ]
+    },
+    "20": {
+      "difficulty": "Easy",
+      "question_frontend_id": 20,
+      "title": "Valid Parentheses",
+      "title_slug": "valid-parentheses",
+      "topic_tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
         }
       ]
     },
@@ -265,6 +301,30 @@
         {
           "name": "Sorting",
           "slug": "sorting"
+        }
+      ]
+    },
+    "496": {
+      "difficulty": "Easy",
+      "question_frontend_id": 496,
+      "title": "Next Greater Element I",
+      "title_slug": "next-greater-element-i",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Monotonic Stack",
+          "slug": "monotonic-stack"
         }
       ]
     },
