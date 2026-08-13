@@ -507,6 +507,30 @@
           "slug": "dynamic-programming"
         }
       ]
+    },
+    "84": {
+      "difficulty": "Hard",
+      "question_frontend_id": 84,
+      "title": "Largest Rectangle in Histogram",
+      "title_slug": "largest-rectangle-in-histogram",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Monotonic Stack",
+          "slug": "monotonic-stack"
+        },
+        {
+          "name": "Range Minimum/Maximum Query",
+          "slug": "range-minimum-maximum-query"
+        }
+      ]
     }
   }
 }

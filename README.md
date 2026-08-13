@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 26 problems. Easy: 11, Medium: 15, Hard: 0.
+Solved 27 problems. Easy: 11, Medium: 15, Hard: 1.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,18 +14,18 @@ Solved 26 problems. Easy: 11, Medium: 15, Hard: 0.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 18 |
+| [Array](https://leetcode.com/tag/array/) | 19 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 12 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 7 |
+| [Stack](https://leetcode.com/tag/stack/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 4 |
-| [Stack](https://leetcode.com/tag/stack/) | 4 |
 | [String](https://leetcode.com/tag/string/) | 4 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 4 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
+| [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 2 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 2 |
-| [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 2 |
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
 | [Design](https://leetcode.com/tag/design/) | 1 |
@@ -33,12 +33,13 @@ Solved 26 problems. Easy: 11, Medium: 15, Hard: 0.
 | [Greedy](https://leetcode.com/tag/greedy/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
+| [Range Minimum/Maximum Query](https://leetcode.com/tag/range-minimum-maximum-query/) | 1 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 1 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 26
+Total count: 27
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -49,6 +50,7 @@ Total count: 26
 - [63. Unique Paths II](63_Unique_Paths_II.py) ([LeetCode](https://leetcode.com/problems/unique-paths-ii/))
 - [64. Minimum Path Sum](64_Minimum_Path_Sum.py) ([LeetCode](https://leetcode.com/problems/minimum-path-sum/))
 - [70. Climbing Stairs](70_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
+- [84. Largest Rectangle in Histogram](84_Largest_Rectangle_in_Hostogram.py) ([LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/))
 - [121. Best Time to Buy and Sell Stock](121_Best_Time_to_Buy_and_Sell_Stock.py) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/))
 - [125. Valid Palindrome](125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
 - [128. Longest Consecutive Sequence](128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
