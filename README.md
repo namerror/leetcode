@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 25 problems. Easy: 11, Medium: 14, Hard: 0.
+Solved 26 problems. Easy: 11, Medium: 15, Hard: 0.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,31 +14,31 @@ Solved 25 problems. Easy: 11, Medium: 14, Hard: 0.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 17 |
+| [Array](https://leetcode.com/tag/array/) | 18 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 12 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 7 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 4 |
+| [Stack](https://leetcode.com/tag/stack/) | 4 |
 | [String](https://leetcode.com/tag/string/) | 4 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 4 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
-| [Stack](https://leetcode.com/tag/stack/) | 3 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 2 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 2 |
+| [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 2 |
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
 | [Design](https://leetcode.com/tag/design/) | 1 |
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 1 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
-| [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 1 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 1 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 25
+Total count: 26
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -61,6 +61,7 @@ Total count: 25
 - [300. Longest Increasing Subsequence](300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
 - [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
+- [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
 - [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
 - [746. Min Cost Climbing Stairs](746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
 - [1137. N-th Tribonacci Number](1137_Nth_Tribonacci_Number.py) ([LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/))
