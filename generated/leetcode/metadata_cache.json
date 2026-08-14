@@ -16,6 +16,74 @@
         }
       ]
     },
+    "100": {
+      "difficulty": "Easy",
+      "question_frontend_id": 100,
+      "title": "Same Tree",
+      "title_slug": "same-tree",
+      "topic_tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
+        }
+      ]
+    },
+    "102": {
+      "difficulty": "Medium",
+      "question_frontend_id": 102,
+      "title": "Binary Tree Level Order Traversal",
+      "title_slug": "binary-tree-level-order-traversal",
+      "topic_tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
+        }
+      ]
+    },
+    "104": {
+      "difficulty": "Easy",
+      "question_frontend_id": 104,
+      "title": "Maximum Depth of Binary Tree",
+      "title_slug": "maximum-depth-of-binary-tree",
+      "topic_tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
+        }
+      ]
+    },
     "11": {
       "difficulty": "Medium",
       "question_frontend_id": 11,
@@ -217,6 +285,30 @@
         {
           "name": "Sorting",
           "slug": "sorting"
+        }
+      ]
+    },
+    "226": {
+      "difficulty": "Easy",
+      "question_frontend_id": 226,
+      "title": "Invert Binary Tree",
+      "title_slug": "invert-binary-tree",
+      "topic_tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
         }
       ]
     },
@@ -529,6 +621,30 @@
         {
           "name": "Range Minimum/Maximum Query",
           "slug": "range-minimum-maximum-query"
+        }
+      ]
+    },
+    "98": {
+      "difficulty": "Medium",
+      "question_frontend_id": 98,
+      "title": "Validate Binary Search Tree",
+      "title_slug": "validate-binary-search-tree",
+      "topic_tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Binary Search Tree",
+          "slug": "binary-search-tree"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
         }
       ]
     }

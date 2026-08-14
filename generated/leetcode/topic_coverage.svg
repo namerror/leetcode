@@ -14,32 +14,32 @@
 <rect x="220" y="132" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="132" width="170" height="18" fill="#2563eb" rx="6" />
 <text x="398" y="146" font-size="13" fill="#1f2933">7</text>
-<text x="20" y="180" font-size="13" fill="#1f2933">Stack</text>
+<text x="20" y="180" font-size="13" fill="#1f2933">Binary Tree</text>
 <rect x="220" y="166" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="166" width="122" height="18" fill="#2563eb" rx="6" />
 <text x="350" y="180" font-size="13" fill="#1f2933">5</text>
-<text x="20" y="214" font-size="13" fill="#1f2933">Math</text>
+<text x="20" y="214" font-size="13" fill="#1f2933">Stack</text>
 <rect x="220" y="200" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="200" width="97" height="18" fill="#2563eb" rx="6" />
-<text x="325" y="214" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="248" font-size="13" fill="#1f2933">Sorting</text>
+<rect x="220" y="200" width="122" height="18" fill="#2563eb" rx="6" />
+<text x="350" y="214" font-size="13" fill="#1f2933">5</text>
+<text x="20" y="248" font-size="13" fill="#1f2933">Tree</text>
 <rect x="220" y="234" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="234" width="97" height="18" fill="#2563eb" rx="6" />
-<text x="325" y="248" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="282" font-size="13" fill="#1f2933">String</text>
+<rect x="220" y="234" width="122" height="18" fill="#2563eb" rx="6" />
+<text x="350" y="248" font-size="13" fill="#1f2933">5</text>
+<text x="20" y="282" font-size="13" fill="#1f2933">Breadth-First Search</text>
 <rect x="220" y="268" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="268" width="97" height="18" fill="#2563eb" rx="6" />
 <text x="325" y="282" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="316" font-size="13" fill="#1f2933">Two Pointers</text>
+<text x="20" y="316" font-size="13" fill="#1f2933">Depth-First Search</text>
 <rect x="220" y="302" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="302" width="97" height="18" fill="#2563eb" rx="6" />
 <text x="325" y="316" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="350" font-size="13" fill="#1f2933">Memoization</text>
+<text x="20" y="350" font-size="13" fill="#1f2933">Math</text>
 <rect x="220" y="336" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="336" width="73" height="18" fill="#2563eb" rx="6" />
-<text x="301" y="350" font-size="13" fill="#1f2933">3</text>
-<text x="20" y="384" font-size="13" fill="#1f2933">Monotonic Stack</text>
+<rect x="220" y="336" width="97" height="18" fill="#2563eb" rx="6" />
+<text x="325" y="350" font-size="13" fill="#1f2933">4</text>
+<text x="20" y="384" font-size="13" fill="#1f2933">Sorting</text>
 <rect x="220" y="370" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="370" width="73" height="18" fill="#2563eb" rx="6" />
-<text x="301" y="384" font-size="13" fill="#1f2933">3</text>
+<rect x="220" y="370" width="97" height="18" fill="#2563eb" rx="6" />
+<text x="325" y="384" font-size="13" fill="#1f2933">4</text>
 </svg>
