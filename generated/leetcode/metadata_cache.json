@@ -268,6 +268,34 @@
         }
       ]
     },
+    "200": {
+      "difficulty": "Medium",
+      "question_frontend_id": 200,
+      "title": "Number of Islands",
+      "title_slug": "number-of-islands",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Union-Find",
+          "slug": "union-find"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
+        }
+      ]
+    },
     "217": {
       "difficulty": "Easy",
       "question_frontend_id": 217,
@@ -309,6 +337,34 @@
         {
           "name": "Binary Tree",
           "slug": "binary-tree"
+        }
+      ]
+    },
+    "236": {
+      "difficulty": "Medium",
+      "question_frontend_id": 236,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "title_slug": "lowest-common-ancestor-of-a-binary-tree",
+      "topic_tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
+        },
+        {
+          "name": "Binary Lifting",
+          "slug": "binary-lifting"
+        },
+        {
+          "name": "Lowest Common Ancestor",
+          "slug": "lowest-common-ancestor"
         }
       ]
     },

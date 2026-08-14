@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 32 problems. Easy: 14, Medium: 17, Hard: 1.
+Solved 34 problems. Easy: 14, Medium: 19, Hard: 1.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,22 +14,24 @@ Solved 32 problems. Easy: 14, Medium: 17, Hard: 1.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 19 |
+| [Array](https://leetcode.com/tag/array/) | 20 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 12 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 7 |
-| [Binary Tree](https://leetcode.com/tag/binary-tree/) | 5 |
+| [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
+| [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 6 |
+| [Tree](https://leetcode.com/tag/tree/) | 6 |
+| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 5 |
 | [Stack](https://leetcode.com/tag/stack/) | 5 |
-| [Tree](https://leetcode.com/tag/tree/) | 5 |
-| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 4 |
-| [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 4 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 4 |
 | [String](https://leetcode.com/tag/string/) | 4 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 4 |
+| [Matrix](https://leetcode.com/tag/matrix/) | 3 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 2 |
-| [Matrix](https://leetcode.com/tag/matrix/) | 2 |
+| [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
+| [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
@@ -37,14 +39,14 @@ Solved 32 problems. Easy: 14, Medium: 17, Hard: 1.
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 1 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
+| [Lowest Common Ancestor](https://leetcode.com/tag/lowest-common-ancestor/) | 1 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
 | [Range Minimum/Maximum Query](https://leetcode.com/tag/range-minimum-maximum-query/) | 1 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 1 |
-| [Union-Find](https://leetcode.com/tag/union-find/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 32
+Total count: 34
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -66,8 +68,10 @@ Total count: 32
 - [155. Min Stack](155_Min_Stack.py) ([LeetCode](https://leetcode.com/problems/min-stack/))
 - [167. Two Sum II - Input Array Is Sorted](167_Two_Sum_II_Input_Array_Is_Sorted.py) ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
 - [198. House Robber](198_House_Robber.py) ([LeetCode](https://leetcode.com/problems/house-robber/))
+- [200. Number of Islands](200_Number_of_Islands.py) ([LeetCode](https://leetcode.com/problems/number-of-islands/))
 - [217. Contains Duplicate](217_Contains_Duplicate.py) ([LeetCode](https://leetcode.com/problems/contains-duplicate/))
 - [226. Invert Binary Tree](226_Invert_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/invert-binary-tree/))
+- [236. Lowest Common Ancestor of a Binary Tree](236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/))
 - [238. Product of Array Except Self](238_Product_of_Array_Except_Self.py) ([LeetCode](https://leetcode.com/problems/product-of-array-except-self/))
 - [242. Valid Anagram](242_Valid_Anagram.py) ([LeetCode](https://leetcode.com/problems/valid-anagram/))
 - [300. Longest Increasing Subsequence](300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
