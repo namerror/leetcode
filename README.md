@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 37 problems. Easy: 14, Medium: 22, Hard: 1.
+Solved 38 problems. Easy: 14, Medium: 23, Hard: 1.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,9 +14,9 @@ Solved 37 problems. Easy: 14, Medium: 22, Hard: 1.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 21 |
-| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 12 |
-| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 8 |
+| [Array](https://leetcode.com/tag/array/) | 22 |
+| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 13 |
+| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 8 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
@@ -36,10 +36,12 @@ Solved 37 problems. Easy: 14, Medium: 22, Hard: 1.
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
+| [Complete Knapsack](https://leetcode.com/tag/complete-knapsack/) | 1 |
 | [Design](https://leetcode.com/tag/design/) | 1 |
 | [Directed Acyclic Graph](https://leetcode.com/tag/directed-acyclic-graph/) | 1 |
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 1 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 1 |
+| [Knapsack Problem](https://leetcode.com/tag/knapsack-problem/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
 | [Lowest Common Ancestor](https://leetcode.com/tag/lowest-common-ancestor/) | 1 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
@@ -49,7 +51,7 @@ Solved 37 problems. Easy: 14, Medium: 22, Hard: 1.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 37
+Total count: 38
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -80,6 +82,7 @@ Total count: 37
 - [238. Product of Array Except Self](238_Product_of_Array_Except_Self.py) ([LeetCode](https://leetcode.com/problems/product-of-array-except-self/))
 - [242. Valid Anagram](242_Valid_Anagram.py) ([LeetCode](https://leetcode.com/problems/valid-anagram/))
 - [300. Longest Increasing Subsequence](300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
+- [322. Coin Change](322_Coin_Change.py) ([LeetCode](https://leetcode.com/problems/coin-change/))
 - [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
 - [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))

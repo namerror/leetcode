@@ -480,6 +480,34 @@
         }
       ]
     },
+    "322": {
+      "difficulty": "Medium",
+      "question_frontend_id": 322,
+      "title": "Coin Change",
+      "title_slug": "coin-change",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Knapsack Problem",
+          "slug": "knapsack-problem"
+        },
+        {
+          "name": "Complete Knapsack",
+          "slug": "complete-knapsack"
+        }
+      ]
+    },
     "49": {
       "difficulty": "Medium",
       "question_frontend_id": 49,
