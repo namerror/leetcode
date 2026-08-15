@@ -176,6 +176,30 @@
         }
       ]
     },
+    "133": {
+      "difficulty": "Medium",
+      "question_frontend_id": 133,
+      "title": "Clone Graph",
+      "title_slug": "clone-graph",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Graph Theory",
+          "slug": "graph"
+        }
+      ]
+    },
     "15": {
       "difficulty": "Medium",
       "question_frontend_id": 15,
@@ -293,6 +317,34 @@
         {
           "name": "Matrix",
           "slug": "matrix"
+        }
+      ]
+    },
+    "207": {
+      "difficulty": "Medium",
+      "question_frontend_id": 207,
+      "title": "Course Schedule",
+      "title_slug": "course-schedule",
+      "topic_tags": [
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Graph Theory",
+          "slug": "graph"
+        },
+        {
+          "name": "Topological Sort",
+          "slug": "topological-sort"
+        },
+        {
+          "name": "Directed Acyclic Graph",
+          "slug": "directed-acyclic-graph"
         }
       ]
     },
@@ -701,6 +753,26 @@
         {
           "name": "Binary Tree",
           "slug": "binary-tree"
+        }
+      ]
+    },
+    "994": {
+      "difficulty": "Medium",
+      "question_frontend_id": 994,
+      "title": "Rotting Oranges",
+      "title_slug": "rotting-oranges",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
         }
       ]
     }
