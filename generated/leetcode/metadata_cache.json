@@ -508,6 +508,26 @@
         }
       ]
     },
+    "424": {
+      "difficulty": "Medium",
+      "question_frontend_id": 424,
+      "title": "Longest Repeating Character Replacement",
+      "title_slug": "longest-repeating-character-replacement",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        }
+      ]
+    },
     "49": {
       "difficulty": "Medium",
       "question_frontend_id": 49,

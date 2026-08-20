@@ -14,11 +14,11 @@
 <rect x="220" y="132" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="132" width="189" height="18" fill="#2563eb" rx="6" />
 <text x="417" y="146" font-size="13" fill="#1f2933">9</text>
-<text x="20" y="180" font-size="13" fill="#1f2933">Depth-First Search</text>
+<text x="20" y="180" font-size="13" fill="#1f2933">Hash Table</text>
 <rect x="220" y="166" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="166" width="168" height="18" fill="#2563eb" rx="6" />
-<text x="396" y="180" font-size="13" fill="#1f2933">8</text>
-<text x="20" y="214" font-size="13" fill="#1f2933">Hash Table</text>
+<rect x="220" y="166" width="189" height="18" fill="#2563eb" rx="6" />
+<text x="417" y="180" font-size="13" fill="#1f2933">9</text>
+<text x="20" y="214" font-size="13" fill="#1f2933">Depth-First Search</text>
 <rect x="220" y="200" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="200" width="168" height="18" fill="#2563eb" rx="6" />
 <text x="396" y="214" font-size="13" fill="#1f2933">8</text>
@@ -34,11 +34,11 @@
 <rect x="220" y="302" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="302" width="105" height="18" fill="#2563eb" rx="6" />
 <text x="333" y="316" font-size="13" fill="#1f2933">5</text>
-<text x="20" y="350" font-size="13" fill="#1f2933">Math</text>
+<text x="20" y="350" font-size="13" fill="#1f2933">String</text>
 <rect x="220" y="336" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="336" width="84" height="18" fill="#2563eb" rx="6" />
-<text x="312" y="350" font-size="13" fill="#1f2933">4</text>
-<text x="20" y="384" font-size="13" fill="#1f2933">Matrix</text>
+<rect x="220" y="336" width="105" height="18" fill="#2563eb" rx="6" />
+<text x="333" y="350" font-size="13" fill="#1f2933">5</text>
+<text x="20" y="384" font-size="13" fill="#1f2933">Math</text>
 <rect x="220" y="370" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="370" width="84" height="18" fill="#2563eb" rx="6" />
 <text x="312" y="384" font-size="13" fill="#1f2933">4</text>
