@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 39 problems. Easy: 14, Medium: 24, Hard: 1.
+Solved 40 problems. Easy: 14, Medium: 25, Hard: 1.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -16,21 +16,22 @@ Solved 39 problems. Easy: 14, Medium: 24, Hard: 1.
 | --- | ---: |
 | [Array](https://leetcode.com/tag/array/) | 22 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 13 |
+| [Hash Table](https://leetcode.com/tag/hash-table/) | 10 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
-| [Hash Table](https://leetcode.com/tag/hash-table/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
+| [String](https://leetcode.com/tag/string/) | 6 |
 | [Tree](https://leetcode.com/tag/tree/) | 6 |
 | [Stack](https://leetcode.com/tag/stack/) | 5 |
-| [String](https://leetcode.com/tag/string/) | 5 |
+| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 4 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 4 |
-| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 4 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 2 |
 | [Graph Theory](https://leetcode.com/tag/graph/) | 2 |
+| [Sliding Window](https://leetcode.com/tag/sliding-window/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
@@ -47,12 +48,11 @@ Solved 39 problems. Easy: 14, Medium: 24, Hard: 1.
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
 | [Range Minimum/Maximum Query](https://leetcode.com/tag/range-minimum-maximum-query/) | 1 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 1 |
-| [Sliding Window](https://leetcode.com/tag/sliding-window/) | 1 |
 | [Topological Sort](https://leetcode.com/tag/topological-sort/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 39
+Total count: 40
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -87,6 +87,7 @@ Total count: 39
 - [424. Longest Repeating Character Replacement](424_Longest_Repeating_Character_Replacement.py) ([LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/))
 - [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
+- [567. Permutation in String](567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
 - [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
 - [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
 - [746. Min Cost Climbing Stairs](746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))

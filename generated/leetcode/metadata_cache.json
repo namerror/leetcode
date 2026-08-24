@@ -620,6 +620,30 @@
         }
       ]
     },
+    "567": {
+      "difficulty": "Medium",
+      "question_frontend_id": 567,
+      "title": "Permutation in String",
+      "title_slug": "permutation-in-string",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        }
+      ]
+    },
     "62": {
       "difficulty": "Medium",
       "question_frontend_id": 62,
