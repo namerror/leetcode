@@ -780,6 +780,26 @@
         }
       ]
     },
+    "76": {
+      "difficulty": "Hard",
+      "question_frontend_id": 76,
+      "title": "Minimum Window Substring",
+      "title_slug": "minimum-window-substring",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        }
+      ]
+    },
     "84": {
       "difficulty": "Hard",
       "question_frontend_id": 84,
