@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 41 problems. Easy: 14, Medium: 25, Hard: 2.
+Solved 45 problems. Easy: 15, Medium: 28, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,23 +14,23 @@ Solved 41 problems. Easy: 14, Medium: 25, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 22 |
+| [Array](https://leetcode.com/tag/array/) | 26 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 13 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 11 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
 | [String](https://leetcode.com/tag/string/) | 7 |
+| [Binary Search](https://leetcode.com/tag/binary-search/) | 6 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
 | [Tree](https://leetcode.com/tag/tree/) | 6 |
+| [Matrix](https://leetcode.com/tag/matrix/) | 5 |
 | [Stack](https://leetcode.com/tag/stack/) | 5 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
-| [Matrix](https://leetcode.com/tag/matrix/) | 4 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 4 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Sliding Window](https://leetcode.com/tag/sliding-window/) | 3 |
-| [Binary Search](https://leetcode.com/tag/binary-search/) | 2 |
 | [Graph Theory](https://leetcode.com/tag/graph/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
@@ -52,7 +52,7 @@ Solved 41 problems. Easy: 14, Medium: 25, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 41
+Total count: 45
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -63,6 +63,7 @@ Total count: 41
 - [63. Unique Paths II](63_Unique_Paths_II.py) ([LeetCode](https://leetcode.com/problems/unique-paths-ii/))
 - [64. Minimum Path Sum](64_Minimum_Path_Sum.py) ([LeetCode](https://leetcode.com/problems/minimum-path-sum/))
 - [70. Climbing Stairs](70_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
+- [74. Search a 2D Matrix](74_Search_a_2D_Matrix.py) ([LeetCode](https://leetcode.com/problems/search-a-2d-matrix/))
 - [76. Minimum Window Substring](76_Minimum_Window_Substring.py) ([LeetCode](https://leetcode.com/problems/minimum-window-substring/))
 - [84. Largest Rectangle in Histogram](84_Largest_Rectangle_in_Hostogram.py) ([LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/))
 - [98. Validate Binary Search Tree](98_Validate_Binary_Search_Tree.py) ([LeetCode](https://leetcode.com/problems/validate-binary-search-tree/))
@@ -73,6 +74,7 @@ Total count: 41
 - [125. Valid Palindrome](125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
 - [128. Longest Consecutive Sequence](128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
 - [133. Clone Graph](133_Clone_Graph.py) ([LeetCode](https://leetcode.com/problems/clone-graph/))
+- [153. Find Minimum in Rotated Sorted Array](153_Find_Minimum_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/))
 - [155. Min Stack](155_Min_Stack.py) ([LeetCode](https://leetcode.com/problems/min-stack/))
 - [167. Two Sum II - Input Array Is Sorted](167_Two_Sum_II_Input_Array_Is_Sorted.py) ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
 - [198. House Robber](198_House_Robber.py) ([LeetCode](https://leetcode.com/problems/house-robber/))
@@ -89,8 +91,10 @@ Total count: 41
 - [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
 - [567. Permutation in String](567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
+- [704. Binary Search](704_Binary_Search.py) ([LeetCode](https://leetcode.com/problems/binary-search/))
 - [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
 - [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
 - [746. Min Cost Climbing Stairs](746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
+- [875. Koko Eating Bananas](875_Koko_Eating_Bananas.py) ([LeetCode](https://leetcode.com/problems/koko-eating-bananas/))
 - [994. Rotting Oranges](994_Rotting_Oranges.py) ([LeetCode](https://leetcode.com/problems/rotting-oranges/))
 - [1137. N-th Tribonacci Number](1137_Nth_Tribonacci_Number.py) ([LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/))

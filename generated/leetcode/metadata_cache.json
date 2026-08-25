@@ -220,6 +220,22 @@
         }
       ]
     },
+    "153": {
+      "difficulty": "Medium",
+      "question_frontend_id": 153,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "title_slug": "find-minimum-in-rotated-sorted-array",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        }
+      ]
+    },
     "155": {
       "difficulty": "Medium",
       "question_frontend_id": 155,
@@ -724,6 +740,22 @@
         }
       ]
     },
+    "704": {
+      "difficulty": "Easy",
+      "question_frontend_id": 704,
+      "title": "Binary Search",
+      "title_slug": "binary-search",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        }
+      ]
+    },
     "739": {
       "difficulty": "Medium",
       "question_frontend_id": 739,
@@ -741,6 +773,26 @@
         {
           "name": "Monotonic Stack",
           "slug": "monotonic-stack"
+        }
+      ]
+    },
+    "74": {
+      "difficulty": "Medium",
+      "question_frontend_id": 74,
+      "title": "Search a 2D Matrix",
+      "title_slug": "search-a-2d-matrix",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
         }
       ]
     },
@@ -821,6 +873,22 @@
         {
           "name": "Range Minimum/Maximum Query",
           "slug": "range-minimum-maximum-query"
+        }
+      ]
+    },
+    "875": {
+      "difficulty": "Medium",
+      "question_frontend_id": 875,
+      "title": "Koko Eating Bananas",
+      "title_slug": "koko-eating-bananas",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
         }
       ]
     },
