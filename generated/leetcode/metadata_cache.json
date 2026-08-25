@@ -336,6 +336,22 @@
         }
       ]
     },
+    "206": {
+      "difficulty": "Easy",
+      "question_frontend_id": 206,
+      "title": "Reverse Linked List",
+      "title_slug": "reverse-linked-list",
+      "topic_tags": [
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        },
+        {
+          "name": "Recursion",
+          "slug": "recursion"
+        }
+      ]
+    },
     "207": {
       "difficulty": "Medium",
       "question_frontend_id": 207,
@@ -521,6 +537,22 @@
         {
           "name": "Complete Knapsack",
           "slug": "complete-knapsack"
+        }
+      ]
+    },
+    "33": {
+      "difficulty": "Medium",
+      "question_frontend_id": 33,
+      "title": "Search in Rotated Sorted Array",
+      "title_slug": "search-in-rotated-sorted-array",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
         }
       ]
     },

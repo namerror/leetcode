@@ -5,41 +5,41 @@
 <text x="20" y="78" font-size="13" fill="#1f2933">Array</text>
 <rect x="220" y="64" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="64" width="464" height="18" fill="#2563eb" rx="6" />
-<text x="692" y="78" font-size="13" fill="#1f2933">26</text>
+<text x="692" y="78" font-size="13" fill="#1f2933">27</text>
 <text x="20" y="112" font-size="13" fill="#1f2933">Dynamic Programming</text>
 <rect x="220" y="98" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="98" width="232" height="18" fill="#2563eb" rx="6" />
-<text x="460" y="112" font-size="13" fill="#1f2933">13</text>
+<rect x="220" y="98" width="223" height="18" fill="#2563eb" rx="6" />
+<text x="451" y="112" font-size="13" fill="#1f2933">13</text>
 <text x="20" y="146" font-size="13" fill="#1f2933">Hash Table</text>
 <rect x="220" y="132" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="132" width="196" height="18" fill="#2563eb" rx="6" />
-<text x="424" y="146" font-size="13" fill="#1f2933">11</text>
+<rect x="220" y="132" width="189" height="18" fill="#2563eb" rx="6" />
+<text x="417" y="146" font-size="13" fill="#1f2933">11</text>
 <text x="20" y="180" font-size="13" fill="#1f2933">Breadth-First Search</text>
 <rect x="220" y="166" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="166" width="160" height="18" fill="#2563eb" rx="6" />
-<text x="388" y="180" font-size="13" fill="#1f2933">9</text>
+<rect x="220" y="166" width="154" height="18" fill="#2563eb" rx="6" />
+<text x="382" y="180" font-size="13" fill="#1f2933">9</text>
 <text x="20" y="214" font-size="13" fill="#1f2933">Depth-First Search</text>
 <rect x="220" y="200" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="200" width="142" height="18" fill="#2563eb" rx="6" />
-<text x="370" y="214" font-size="13" fill="#1f2933">8</text>
-<text x="20" y="248" font-size="13" fill="#1f2933">String</text>
+<rect x="220" y="200" width="137" height="18" fill="#2563eb" rx="6" />
+<text x="365" y="214" font-size="13" fill="#1f2933">8</text>
+<text x="20" y="248" font-size="13" fill="#1f2933">Binary Search</text>
 <rect x="220" y="234" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="234" width="124" height="18" fill="#2563eb" rx="6" />
-<text x="352" y="248" font-size="13" fill="#1f2933">7</text>
-<text x="20" y="282" font-size="13" fill="#1f2933">Binary Search</text>
+<rect x="220" y="234" width="120" height="18" fill="#2563eb" rx="6" />
+<text x="348" y="248" font-size="13" fill="#1f2933">7</text>
+<text x="20" y="282" font-size="13" fill="#1f2933">String</text>
 <rect x="220" y="268" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="268" width="107" height="18" fill="#2563eb" rx="6" />
-<text x="335" y="282" font-size="13" fill="#1f2933">6</text>
+<rect x="220" y="268" width="120" height="18" fill="#2563eb" rx="6" />
+<text x="348" y="282" font-size="13" fill="#1f2933">7</text>
 <text x="20" y="316" font-size="13" fill="#1f2933">Binary Tree</text>
 <rect x="220" y="302" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="302" width="107" height="18" fill="#2563eb" rx="6" />
-<text x="335" y="316" font-size="13" fill="#1f2933">6</text>
+<rect x="220" y="302" width="103" height="18" fill="#2563eb" rx="6" />
+<text x="331" y="316" font-size="13" fill="#1f2933">6</text>
 <text x="20" y="350" font-size="13" fill="#1f2933">Tree</text>
 <rect x="220" y="336" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="336" width="107" height="18" fill="#2563eb" rx="6" />
-<text x="335" y="350" font-size="13" fill="#1f2933">6</text>
+<rect x="220" y="336" width="103" height="18" fill="#2563eb" rx="6" />
+<text x="331" y="350" font-size="13" fill="#1f2933">6</text>
 <text x="20" y="384" font-size="13" fill="#1f2933">Matrix</text>
 <rect x="220" y="370" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="370" width="89" height="18" fill="#2563eb" rx="6" />
-<text x="317" y="384" font-size="13" fill="#1f2933">5</text>
+<rect x="220" y="370" width="85" height="18" fill="#2563eb" rx="6" />
+<text x="313" y="384" font-size="13" fill="#1f2933">5</text>
 </svg>
