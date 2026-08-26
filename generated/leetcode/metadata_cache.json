@@ -200,6 +200,54 @@
         }
       ]
     },
+    "141": {
+      "difficulty": "Easy",
+      "question_frontend_id": 141,
+      "title": "Linked List Cycle",
+      "title_slug": "linked-list-cycle",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "Floyd's Cycle Finding Algorithm",
+          "slug": "floyds-cycle-finding-algorithm"
+        }
+      ]
+    },
+    "143": {
+      "difficulty": "Medium",
+      "question_frontend_id": 143,
+      "title": "Reorder List",
+      "title_slug": "reorder-list",
+      "topic_tags": [
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Recursion",
+          "slug": "recursion"
+        }
+      ]
+    },
     "15": {
       "difficulty": "Medium",
       "question_frontend_id": 15,
@@ -377,6 +425,22 @@
         {
           "name": "Directed Acyclic Graph",
           "slug": "directed-acyclic-graph"
+        }
+      ]
+    },
+    "21": {
+      "difficulty": "Easy",
+      "question_frontend_id": 21,
+      "title": "Merge Two Sorted Lists",
+      "title_slug": "merge-two-sorted-lists",
+      "topic_tags": [
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        },
+        {
+          "name": "Recursion",
+          "slug": "recursion"
         }
       ]
     },
