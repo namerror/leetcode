@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 50 problems. Easy: 18, Medium: 30, Hard: 2.
+Solved 52 problems. Easy: 18, Medium: 32, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -16,17 +16,17 @@ Solved 50 problems. Easy: 18, Medium: 30, Hard: 2.
 | --- | ---: |
 | [Array](https://leetcode.com/tag/array/) | 27 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 13 |
-| [Hash Table](https://leetcode.com/tag/hash-table/) | 12 |
+| [Hash Table](https://leetcode.com/tag/hash-table/) | 13 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
+| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 8 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 7 |
 | [String](https://leetcode.com/tag/string/) | 7 |
-| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 7 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
+| [Linked List](https://leetcode.com/tag/linked-list/) | 6 |
 | [Stack](https://leetcode.com/tag/stack/) | 6 |
 | [Tree](https://leetcode.com/tag/tree/) | 6 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 5 |
-| [Linked List](https://leetcode.com/tag/linked-list/) | 4 |
 | [Math](https://leetcode.com/tag/math/) | 4 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 4 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 4 |
@@ -54,10 +54,11 @@ Solved 50 problems. Easy: 18, Medium: 30, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 50
+Total count: 52
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
+- [19. Remove Nth Node From End of List](19_Remove_Nth_Node_From_End_of_List.py) ([LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/))
 - [20. Valid Parentheses](20_Valid_Parentheses.py) ([LeetCode](https://leetcode.com/problems/valid-parentheses/))
 - [21. Merge Two Sorted Lists](21_Merge_Two_Sorted_Lists.py) ([LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
 - [33. Search in Rotated Sorted Array](33_Search_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/))
@@ -78,6 +79,7 @@ Total count: 50
 - [125. Valid Palindrome](125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
 - [128. Longest Consecutive Sequence](128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
 - [133. Clone Graph](133_Clone_Graph.py) ([LeetCode](https://leetcode.com/problems/clone-graph/))
+- [138. Copy List with Random Pointer](138_Copy_List_with_Random_Pointer.py) ([LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/))
 - [141. Linked List Cycle](141_Linked_List_Cycle.py) ([LeetCode](https://leetcode.com/problems/linked-list-cycle/))
 - [143. Reorder List](143_Reorder_List.py) ([LeetCode](https://leetcode.com/problems/reorder-list/))
 - [153. Find Minimum in Rotated Sorted Array](153_Find_Minimum_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/))

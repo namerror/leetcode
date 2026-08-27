@@ -200,6 +200,22 @@
         }
       ]
     },
+    "138": {
+      "difficulty": "Medium",
+      "question_frontend_id": 138,
+      "title": "Copy List with Random Pointer",
+      "title_slug": "copy-list-with-random-pointer",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        }
+      ]
+    },
     "141": {
       "difficulty": "Easy",
       "question_frontend_id": 141,
@@ -317,6 +333,22 @@
         {
           "name": "Binary Search",
           "slug": "binary-search"
+        }
+      ]
+    },
+    "19": {
+      "difficulty": "Medium",
+      "question_frontend_id": 19,
+      "title": "Remove Nth Node From End of List",
+      "title_slug": "remove-nth-node-from-end-of-list",
+      "topic_tags": [
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
         }
       ]
     },
