@@ -476,6 +476,34 @@
         }
       ]
     },
+    "215": {
+      "difficulty": "Medium",
+      "question_frontend_id": 215,
+      "title": "Kth Largest Element in an Array",
+      "title_slug": "kth-largest-element-in-an-array",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Divide and Conquer",
+          "slug": "divide-and-conquer"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Heap (Priority Queue)",
+          "slug": "heap-priority-queue"
+        },
+        {
+          "name": "Quickselect",
+          "slug": "quickselect"
+        }
+      ]
+    },
     "217": {
       "difficulty": "Easy",
       "question_frontend_id": 217,
@@ -652,6 +680,46 @@
         }
       ]
     },
+    "347": {
+      "difficulty": "Medium",
+      "question_frontend_id": 347,
+      "title": "Top K Frequent Elements",
+      "title_slug": "top-k-frequent-elements",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Divide and Conquer",
+          "slug": "divide-and-conquer"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Heap (Priority Queue)",
+          "slug": "heap-priority-queue"
+        },
+        {
+          "name": "Bucket Sort",
+          "slug": "bucket-sort"
+        },
+        {
+          "name": "Counting",
+          "slug": "counting"
+        },
+        {
+          "name": "Quickselect",
+          "slug": "quickselect"
+        }
+      ]
+    },
     "424": {
       "difficulty": "Medium",
       "question_frontend_id": 424,
@@ -764,6 +832,26 @@
         }
       ]
     },
+    "56": {
+      "difficulty": "Medium",
+      "question_frontend_id": 56,
+      "title": "Merge Intervals",
+      "title_slug": "merge-intervals",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Quicksort",
+          "slug": "quicksort"
+        }
+      ]
+    },
     "567": {
       "difficulty": "Medium",
       "question_frontend_id": 567,
@@ -785,6 +873,18 @@
         {
           "name": "Sliding Window",
           "slug": "sliding-window"
+        }
+      ]
+    },
+    "57": {
+      "difficulty": "Medium",
+      "question_frontend_id": 57,
+      "title": "Insert Interval",
+      "title_slug": "insert-interval",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
         }
       ]
     },
@@ -1017,6 +1117,46 @@
         {
           "name": "Binary Search",
           "slug": "binary-search"
+        }
+      ]
+    },
+    "973": {
+      "difficulty": "Medium",
+      "question_frontend_id": 973,
+      "title": "K Closest Points to Origin",
+      "title_slug": "k-closest-points-to-origin",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Divide and Conquer",
+          "slug": "divide-and-conquer"
+        },
+        {
+          "name": "Geometry",
+          "slug": "geometry"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Heap (Priority Queue)",
+          "slug": "heap-priority-queue"
+        },
+        {
+          "name": "Quickselect",
+          "slug": "quickselect"
+        },
+        {
+          "name": "K-D Tree",
+          "slug": "k-d-tree"
         }
       ]
     },
