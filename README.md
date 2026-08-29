@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 57 problems. Easy: 18, Medium: 37, Hard: 2.
+Solved 60 problems. Easy: 18, Medium: 40, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,15 +14,15 @@ Solved 57 problems. Easy: 18, Medium: 37, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 32 |
-| [Hash Table](https://leetcode.com/tag/hash-table/) | 14 |
-| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 13 |
+| [Array](https://leetcode.com/tag/array/) | 34 |
+| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 15 |
+| [Hash Table](https://leetcode.com/tag/hash-table/) | 15 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
+| [Sorting](https://leetcode.com/tag/sorting/) | 9 |
+| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
-| [Sorting](https://leetcode.com/tag/sorting/) | 8 |
-| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 8 |
+| [String](https://leetcode.com/tag/string/) | 8 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 7 |
-| [String](https://leetcode.com/tag/string/) | 7 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
 | [Linked List](https://leetcode.com/tag/linked-list/) | 6 |
 | [Stack](https://leetcode.com/tag/stack/) | 6 |
@@ -30,6 +30,7 @@ Solved 57 problems. Easy: 18, Medium: 37, Hard: 2.
 | [Math](https://leetcode.com/tag/math/) | 5 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 5 |
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 4 |
+| [Greedy](https://leetcode.com/tag/greedy/) | 4 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 4 |
 | [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 3 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
@@ -49,7 +50,6 @@ Solved 57 problems. Easy: 18, Medium: 37, Hard: 2.
 | [Directed Acyclic Graph](https://leetcode.com/tag/directed-acyclic-graph/) | 1 |
 | [Floyd's Cycle Finding Algorithm](https://leetcode.com/tag/floyds-cycle-finding-algorithm/) | 1 |
 | [Geometry](https://leetcode.com/tag/geometry/) | 1 |
-| [Greedy](https://leetcode.com/tag/greedy/) | 1 |
 | [K-D Tree](https://leetcode.com/tag/k-d-tree/) | 1 |
 | [Knapsack Problem](https://leetcode.com/tag/knapsack-problem/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
@@ -61,7 +61,7 @@ Solved 57 problems. Easy: 18, Medium: 37, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 57
+Total count: 60
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -71,6 +71,7 @@ Total count: 57
 - [33. Search in Rotated Sorted Array](33_Search_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/))
 - [49. Group Anagrams](49_Group_Anagrams.py) ([LeetCode](https://leetcode.com/problems/group-anagrams/))
 - [53. Maximum Subarray](53_Maximum_Subarray.py) ([LeetCode](https://leetcode.com/problems/maximum-subarray/))
+- [55. Jump Game](55_Jump_Game.py) ([LeetCode](https://leetcode.com/problems/jump-game/))
 - [56. Merge Intervals](56_Merge_Intervals.py) ([LeetCode](https://leetcode.com/problems/merge-intervals/))
 - [57. Insert Interval](57_Insert_Interval.py) ([LeetCode](https://leetcode.com/problems/insert-interval/))
 - [62. Unique Paths](62_Unique_Paths.py) ([LeetCode](https://leetcode.com/problems/unique-paths/))
@@ -108,6 +109,7 @@ Total count: 57
 - [322. Coin Change](322_Coin_Change.py) ([LeetCode](https://leetcode.com/problems/coin-change/))
 - [347. Top K Frequent Elements](347_Top K_Frequent_Elements.py) ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/))
 - [424. Longest Repeating Character Replacement](424_Longest_Repeating_Character_Replacement.py) ([LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/))
+- [435. Non-overlapping Intervals](435_Non-overlapping_Intervals.py) ([LeetCode](https://leetcode.com/problems/non-overlapping-intervals/))
 - [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
 - [567. Permutation in String](567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
@@ -115,6 +117,7 @@ Total count: 57
 - [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
 - [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
 - [746. Min Cost Climbing Stairs](746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
+- [763. Partition Labels](763_Partition_Labels.py) ([LeetCode](https://leetcode.com/problems/partition-labels/))
 - [875. Koko Eating Bananas](875_Koko_Eating_Bananas.py) ([LeetCode](https://leetcode.com/problems/koko-eating-bananas/))
 - [973. K Closest Points to Origin](973_K_Closest_Points_to_Origin.py) ([LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/))
 - [994. Rotting Oranges](994_Rotting_Oranges.py) ([LeetCode](https://leetcode.com/problems/rotting-oranges/))

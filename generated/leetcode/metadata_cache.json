@@ -740,6 +740,30 @@
         }
       ]
     },
+    "435": {
+      "difficulty": "Medium",
+      "question_frontend_id": 435,
+      "title": "Non-overlapping Intervals",
+      "title_slug": "non-overlapping-intervals",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ]
+    },
     "49": {
       "difficulty": "Medium",
       "question_frontend_id": 49,
@@ -829,6 +853,26 @@
         {
           "name": "Dynamic Programming",
           "slug": "dynamic-programming"
+        }
+      ]
+    },
+    "55": {
+      "difficulty": "Medium",
+      "question_frontend_id": 55,
+      "title": "Jump Game",
+      "title_slug": "jump-game",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
         }
       ]
     },
@@ -1077,6 +1121,30 @@
         {
           "name": "Sliding Window",
           "slug": "sliding-window"
+        }
+      ]
+    },
+    "763": {
+      "difficulty": "Medium",
+      "question_frontend_id": 763,
+      "title": "Partition Labels",
+      "title_slug": "partition-labels",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
         }
       ]
     },
