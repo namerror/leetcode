@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 60 problems. Easy: 18, Medium: 40, Hard: 2.
+Solved 62 problems. Easy: 18, Medium: 42, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,29 +14,31 @@ Solved 60 problems. Easy: 18, Medium: 40, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 34 |
+| [Array](https://leetcode.com/tag/array/) | 35 |
+| [Hash Table](https://leetcode.com/tag/hash-table/) | 17 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 15 |
-| [Hash Table](https://leetcode.com/tag/hash-table/) | 15 |
+| [Sorting](https://leetcode.com/tag/sorting/) | 10 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
-| [Sorting](https://leetcode.com/tag/sorting/) | 9 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
 | [String](https://leetcode.com/tag/string/) | 8 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 7 |
+| [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
-| [Linked List](https://leetcode.com/tag/linked-list/) | 6 |
 | [Stack](https://leetcode.com/tag/stack/) | 6 |
 | [Tree](https://leetcode.com/tag/tree/) | 6 |
+| [Greedy](https://leetcode.com/tag/greedy/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 5 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 5 |
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 4 |
-| [Greedy](https://leetcode.com/tag/greedy/) | 4 |
+| [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 4 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 4 |
-| [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 3 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Quickselect](https://leetcode.com/tag/quickselect/) | 3 |
 | [Sliding Window](https://leetcode.com/tag/sliding-window/) | 3 |
+| [Counting](https://leetcode.com/tag/counting/) | 2 |
+| [Design](https://leetcode.com/tag/design/) | 2 |
 | [Graph Theory](https://leetcode.com/tag/graph/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
@@ -45,9 +47,8 @@ Solved 60 problems. Easy: 18, Medium: 40, Hard: 2.
 | [Bucket Sort](https://leetcode.com/tag/bucket-sort/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
 | [Complete Knapsack](https://leetcode.com/tag/complete-knapsack/) | 1 |
-| [Counting](https://leetcode.com/tag/counting/) | 1 |
-| [Design](https://leetcode.com/tag/design/) | 1 |
 | [Directed Acyclic Graph](https://leetcode.com/tag/directed-acyclic-graph/) | 1 |
+| [Doubly-Linked List](https://leetcode.com/tag/doubly-linked-list/) | 1 |
 | [Floyd's Cycle Finding Algorithm](https://leetcode.com/tag/floyds-cycle-finding-algorithm/) | 1 |
 | [Geometry](https://leetcode.com/tag/geometry/) | 1 |
 | [K-D Tree](https://leetcode.com/tag/k-d-tree/) | 1 |
@@ -61,7 +62,7 @@ Solved 60 problems. Easy: 18, Medium: 40, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 60
+Total count: 62
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -92,6 +93,7 @@ Total count: 60
 - [138. Copy List with Random Pointer](138_Copy_List_with_Random_Pointer.py) ([LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/))
 - [141. Linked List Cycle](141_Linked_List_Cycle.py) ([LeetCode](https://leetcode.com/problems/linked-list-cycle/))
 - [143. Reorder List](143_Reorder_List.py) ([LeetCode](https://leetcode.com/problems/reorder-list/))
+- [146. LRU Cache](146_LRU_Cache.py) ([LeetCode](https://leetcode.com/problems/lru-cache/))
 - [153. Find Minimum in Rotated Sorted Array](153_Find_Minimum_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/))
 - [155. Min Stack](155_Min_Stack.py) ([LeetCode](https://leetcode.com/problems/min-stack/))
 - [167. Two Sum II - Input Array Is Sorted](167_Two_Sum_II_Input_Array_Is_Sorted.py) ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
@@ -113,6 +115,7 @@ Total count: 60
 - [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
 - [567. Permutation in String](567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
+- [621. Task Scheduler](621_Task_Scheduler.py) ([LeetCode](https://leetcode.com/problems/task-scheduler/))
 - [704. Binary Search](704_Binary_Search.py) ([LeetCode](https://leetcode.com/problems/binary-search/))
 - [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
 - [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))

@@ -264,6 +264,30 @@
         }
       ]
     },
+    "146": {
+      "difficulty": "Medium",
+      "question_frontend_id": 146,
+      "title": "LRU Cache",
+      "title_slug": "lru-cache",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        },
+        {
+          "name": "Design",
+          "slug": "design"
+        },
+        {
+          "name": "Doubly-Linked List",
+          "slug": "doubly-linked-list"
+        }
+      ]
+    },
     "15": {
       "difficulty": "Medium",
       "question_frontend_id": 15,
@@ -949,6 +973,38 @@
         {
           "name": "Combinatorics",
           "slug": "combinatorics"
+        }
+      ]
+    },
+    "621": {
+      "difficulty": "Medium",
+      "question_frontend_id": 621,
+      "title": "Task Scheduler",
+      "title_slug": "task-scheduler",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Heap (Priority Queue)",
+          "slug": "heap-priority-queue"
+        },
+        {
+          "name": "Counting",
+          "slug": "counting"
         }
       ]
     },
