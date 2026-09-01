@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 62 problems. Easy: 18, Medium: 42, Hard: 2.
+Solved 63 problems. Easy: 18, Medium: 43, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -16,12 +16,12 @@ Solved 62 problems. Easy: 18, Medium: 42, Hard: 2.
 | --- | ---: |
 | [Array](https://leetcode.com/tag/array/) | 35 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 17 |
-| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 15 |
+| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 16 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 10 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
+| [String](https://leetcode.com/tag/string/) | 9 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
-| [String](https://leetcode.com/tag/string/) | 8 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 7 |
 | [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
@@ -41,6 +41,7 @@ Solved 62 problems. Easy: 18, Medium: 42, Hard: 2.
 | [Design](https://leetcode.com/tag/design/) | 2 |
 | [Graph Theory](https://leetcode.com/tag/graph/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
+| [Backtracking](https://leetcode.com/tag/backtracking/) | 1 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 1 |
@@ -62,7 +63,7 @@ Solved 62 problems. Easy: 18, Medium: 42, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 62
+Total count: 63
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -89,6 +90,7 @@ Total count: 62
 - [121. Best Time to Buy and Sell Stock](121_Best_Time_to_Buy_and_Sell_Stock.py) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/))
 - [125. Valid Palindrome](125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
 - [128. Longest Consecutive Sequence](128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
+- [131. Palindrome Partitioning](131_Palindrome_Partitioning.py) ([LeetCode](https://leetcode.com/problems/palindrome-partitioning/))
 - [133. Clone Graph](133_Clone_Graph.py) ([LeetCode](https://leetcode.com/problems/clone-graph/))
 - [138. Copy List with Random Pointer](138_Copy_List_with_Random_Pointer.py) ([LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/))
 - [141. Linked List Cycle](141_Linked_List_Cycle.py) ([LeetCode](https://leetcode.com/problems/linked-list-cycle/))
