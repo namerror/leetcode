@@ -8,8 +8,8 @@
 <text x="692" y="78" font-size="13" fill="#1f2933">35</text>
 <text x="20" y="112" font-size="13" fill="#1f2933">Hash Table</text>
 <rect x="220" y="98" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="98" width="225" height="18" fill="#2563eb" rx="6" />
-<text x="453" y="112" font-size="13" fill="#1f2933">17</text>
+<rect x="220" y="98" width="238" height="18" fill="#2563eb" rx="6" />
+<text x="466" y="112" font-size="13" fill="#1f2933">18</text>
 <text x="20" y="146" font-size="13" fill="#1f2933">Dynamic Programming</text>
 <rect x="220" y="132" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="132" width="212" height="18" fill="#2563eb" rx="6" />
@@ -18,11 +18,11 @@
 <rect x="220" y="166" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="166" width="132" height="18" fill="#2563eb" rx="6" />
 <text x="360" y="180" font-size="13" fill="#1f2933">10</text>
-<text x="20" y="214" font-size="13" fill="#1f2933">Breadth-First Search</text>
+<text x="20" y="214" font-size="13" fill="#1f2933">String</text>
 <rect x="220" y="200" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="200" width="119" height="18" fill="#2563eb" rx="6" />
-<text x="347" y="214" font-size="13" fill="#1f2933">9</text>
-<text x="20" y="248" font-size="13" fill="#1f2933">String</text>
+<rect x="220" y="200" width="132" height="18" fill="#2563eb" rx="6" />
+<text x="360" y="214" font-size="13" fill="#1f2933">10</text>
+<text x="20" y="248" font-size="13" fill="#1f2933">Breadth-First Search</text>
 <rect x="220" y="234" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="234" width="119" height="18" fill="#2563eb" rx="6" />
 <text x="347" y="248" font-size="13" fill="#1f2933">9</text>

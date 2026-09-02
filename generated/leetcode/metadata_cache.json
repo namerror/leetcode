@@ -504,6 +504,30 @@
         }
       ]
     },
+    "208": {
+      "difficulty": "Medium",
+      "question_frontend_id": 208,
+      "title": "Implement Trie (Prefix Tree)",
+      "title_slug": "implement-trie-prefix-tree",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Design",
+          "slug": "design"
+        },
+        {
+          "name": "Trie",
+          "slug": "trie"
+        }
+      ]
+    },
     "21": {
       "difficulty": "Easy",
       "question_frontend_id": 21,
