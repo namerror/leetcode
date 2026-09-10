@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 64 problems. Easy: 18, Medium: 44, Hard: 2.
+Solved 65 problems. Easy: 18, Medium: 45, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,7 +14,7 @@ Solved 64 problems. Easy: 18, Medium: 44, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 35 |
+| [Array](https://leetcode.com/tag/array/) | 36 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 18 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 16 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 10 |
@@ -38,12 +38,13 @@ Solved 64 problems. Easy: 18, Medium: 44, Hard: 2.
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Quickselect](https://leetcode.com/tag/quickselect/) | 3 |
 | [Sliding Window](https://leetcode.com/tag/sliding-window/) | 3 |
+| [Backtracking](https://leetcode.com/tag/backtracking/) | 2 |
 | [Counting](https://leetcode.com/tag/counting/) | 2 |
 | [Graph Theory](https://leetcode.com/tag/graph/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
-| [Backtracking](https://leetcode.com/tag/backtracking/) | 1 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
+| [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/) | 1 |
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 1 |
 | [Bucket Sort](https://leetcode.com/tag/bucket-sort/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
@@ -64,7 +65,7 @@ Solved 64 problems. Easy: 18, Medium: 44, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 64
+Total count: 65
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -83,6 +84,7 @@ Total count: 64
 - [70. Climbing Stairs](70_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
 - [74. Search a 2D Matrix](74_Search_a_2D_Matrix.py) ([LeetCode](https://leetcode.com/problems/search-a-2d-matrix/))
 - [76. Minimum Window Substring](76_Minimum_Window_Substring.py) ([LeetCode](https://leetcode.com/problems/minimum-window-substring/))
+- [78. Subsets](78_Subsets.py) ([LeetCode](https://leetcode.com/problems/subsets/))
 - [84. Largest Rectangle in Histogram](84_Largest_Rectangle_in_Hostogram.py) ([LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/))
 - [98. Validate Binary Search Tree](98_Validate_Binary_Search_Tree.py) ([LeetCode](https://leetcode.com/problems/validate-binary-search-tree/))
 - [100. Same Tree](100_Same_Tree.py) ([LeetCode](https://leetcode.com/problems/same-tree/))

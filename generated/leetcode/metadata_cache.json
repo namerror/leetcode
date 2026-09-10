@@ -1248,6 +1248,26 @@
         }
       ]
     },
+    "78": {
+      "difficulty": "Medium",
+      "question_frontend_id": 78,
+      "title": "Subsets",
+      "title_slug": "subsets",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Backtracking",
+          "slug": "backtracking"
+        },
+        {
+          "name": "Bit Manipulation",
+          "slug": "bit-manipulation"
+        }
+      ]
+    },
     "84": {
       "difficulty": "Hard",
       "question_frontend_id": 84,
