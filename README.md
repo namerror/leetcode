@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 65 problems. Easy: 18, Medium: 45, Hard: 2.
+Solved 66 problems. Easy: 18, Medium: 46, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -14,9 +14,9 @@ Solved 65 problems. Easy: 18, Medium: 45, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 36 |
+| [Array](https://leetcode.com/tag/array/) | 37 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 18 |
-| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 16 |
+| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 17 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 10 |
 | [String](https://leetcode.com/tag/string/) | 10 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
@@ -33,15 +33,17 @@ Solved 65 problems. Easy: 18, Medium: 45, Hard: 2.
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 4 |
 | [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 4 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 4 |
+| [Backtracking](https://leetcode.com/tag/backtracking/) | 3 |
 | [Design](https://leetcode.com/tag/design/) | 3 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Quickselect](https://leetcode.com/tag/quickselect/) | 3 |
 | [Sliding Window](https://leetcode.com/tag/sliding-window/) | 3 |
-| [Backtracking](https://leetcode.com/tag/backtracking/) | 2 |
 | [Counting](https://leetcode.com/tag/counting/) | 2 |
 | [Graph Theory](https://leetcode.com/tag/graph/) | 2 |
+| [Knapsack Problem](https://leetcode.com/tag/knapsack-problem/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
+| [0-1 Knapsack](https://leetcode.com/tag/0-1-knapsack/) | 1 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
 | [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/) | 1 |
@@ -54,7 +56,6 @@ Solved 65 problems. Easy: 18, Medium: 45, Hard: 2.
 | [Floyd's Cycle Finding Algorithm](https://leetcode.com/tag/floyds-cycle-finding-algorithm/) | 1 |
 | [Geometry](https://leetcode.com/tag/geometry/) | 1 |
 | [K-D Tree](https://leetcode.com/tag/k-d-tree/) | 1 |
-| [Knapsack Problem](https://leetcode.com/tag/knapsack-problem/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
 | [Lowest Common Ancestor](https://leetcode.com/tag/lowest-common-ancestor/) | 1 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
@@ -65,7 +66,7 @@ Solved 65 problems. Easy: 18, Medium: 45, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 65
+Total count: 66
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
@@ -118,6 +119,7 @@ Total count: 65
 - [347. Top K Frequent Elements](347_Top K_Frequent_Elements.py) ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/))
 - [424. Longest Repeating Character Replacement](424_Longest_Repeating_Character_Replacement.py) ([LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/))
 - [435. Non-overlapping Intervals](435_Non-overlapping_Intervals.py) ([LeetCode](https://leetcode.com/problems/non-overlapping-intervals/))
+- [494. Target Sum](494_Target_Sum.py) ([LeetCode](https://leetcode.com/problems/target-sum/))
 - [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
 - [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
 - [567. Permutation in String](567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))

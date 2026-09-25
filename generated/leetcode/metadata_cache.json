@@ -856,6 +856,34 @@
         }
       ]
     },
+    "494": {
+      "difficulty": "Medium",
+      "question_frontend_id": 494,
+      "title": "Target Sum",
+      "title_slug": "target-sum",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Backtracking",
+          "slug": "backtracking"
+        },
+        {
+          "name": "Knapsack Problem",
+          "slug": "knapsack-problem"
+        },
+        {
+          "name": "0-1 Knapsack",
+          "slug": "0-1-knapsack"
+        }
+      ]
+    },
     "496": {
       "difficulty": "Easy",
       "question_frontend_id": 496,
