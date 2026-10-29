@@ -544,6 +544,30 @@
         }
       ]
     },
+    "210": {
+      "difficulty": "Medium",
+      "question_frontend_id": 210,
+      "title": "Course Schedule II",
+      "title_slug": "course-schedule-ii",
+      "topic_tags": [
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Graph Theory",
+          "slug": "graph"
+        },
+        {
+          "name": "Topological Sort",
+          "slug": "topological-sort"
+        }
+      ]
+    },
     "215": {
       "difficulty": "Medium",
       "question_frontend_id": 215,
@@ -905,6 +929,30 @@
         {
           "name": "Monotonic Stack",
           "slug": "monotonic-stack"
+        }
+      ]
+    },
+    "5": {
+      "difficulty": "Medium",
+      "question_frontend_id": 5,
+      "title": "Longest Palindromic Substring",
+      "title_slug": "longest-palindromic-substring",
+      "topic_tags": [
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Manacher",
+          "slug": "manacher"
         }
       ]
     },

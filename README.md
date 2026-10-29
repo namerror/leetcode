@@ -5,7 +5,7 @@ Non-LeetCode algorithm notes and examples live in [learning_examples](learning_e
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 66 problems. Easy: 18, Medium: 46, Hard: 2.
+Solved 68 problems. Easy: 18, Medium: 48, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -15,13 +15,13 @@ Solved 66 problems. Easy: 18, Medium: 46, Hard: 2.
 | Topic | Solved |
 | --- | ---: |
 | [Array](https://leetcode.com/tag/array/) | 37 |
+| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 18 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 18 |
-| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 17 |
+| [String](https://leetcode.com/tag/string/) | 11 |
+| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 10 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 10 |
-| [String](https://leetcode.com/tag/string/) | 10 |
-| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 9 |
-| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 9 |
-| [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 8 |
+| [Two Pointers](https://leetcode.com/tag/two-pointers/) | 10 |
+| [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 9 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 7 |
 | [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
@@ -35,13 +35,14 @@ Solved 66 problems. Easy: 18, Medium: 46, Hard: 2.
 | [Recursion](https://leetcode.com/tag/recursion/) | 4 |
 | [Backtracking](https://leetcode.com/tag/backtracking/) | 3 |
 | [Design](https://leetcode.com/tag/design/) | 3 |
+| [Graph Theory](https://leetcode.com/tag/graph/) | 3 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 3 |
 | [Quickselect](https://leetcode.com/tag/quickselect/) | 3 |
 | [Sliding Window](https://leetcode.com/tag/sliding-window/) | 3 |
 | [Counting](https://leetcode.com/tag/counting/) | 2 |
-| [Graph Theory](https://leetcode.com/tag/graph/) | 2 |
 | [Knapsack Problem](https://leetcode.com/tag/knapsack-problem/) | 2 |
+| [Topological Sort](https://leetcode.com/tag/topological-sort/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
 | [0-1 Knapsack](https://leetcode.com/tag/0-1-knapsack/) | 1 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
@@ -58,16 +59,17 @@ Solved 66 problems. Easy: 18, Medium: 46, Hard: 2.
 | [K-D Tree](https://leetcode.com/tag/k-d-tree/) | 1 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
 | [Lowest Common Ancestor](https://leetcode.com/tag/lowest-common-ancestor/) | 1 |
+| [Manacher](https://leetcode.com/tag/manacher/) | 1 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 1 |
 | [Quicksort](https://leetcode.com/tag/quicksort/) | 1 |
 | [Range Minimum/Maximum Query](https://leetcode.com/tag/range-minimum-maximum-query/) | 1 |
-| [Topological Sort](https://leetcode.com/tag/topological-sort/) | 1 |
 | [Trie](https://leetcode.com/tag/trie/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 66
+Total count: 68
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
+- [5. Longest Palindromic Substring](5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
 - [19. Remove Nth Node From End of List](19_Remove_Nth_Node_From_End_of_List.py) ([LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/))
@@ -108,6 +110,7 @@ Total count: 66
 - [206. Reverse Linked List](206_Reverse_Linked_List.py) ([LeetCode](https://leetcode.com/problems/reverse-linked-list/))
 - [207. Course Schedule](207_Course_Schedule.py) ([LeetCode](https://leetcode.com/problems/course-schedule/))
 - [208. Implement Trie (Prefix Tree)](208_Implement_Trie.py) ([LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/))
+- [210. Course Schedule II](210_Course_Schedule_II.py) ([LeetCode](https://leetcode.com/problems/course-schedule-ii/))
 - [215. Kth Largest Element in an Array](215_Kth_Largest_Element_in_an_Array.py) ([LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/))
 - [217. Contains Duplicate](217_Contains_Duplicate.py) ([LeetCode](https://leetcode.com/problems/contains-duplicate/))
 - [226. Invert Binary Tree](226_Invert_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/invert-binary-tree/))
