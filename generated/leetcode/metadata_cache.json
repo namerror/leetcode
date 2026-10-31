@@ -616,6 +616,30 @@
         }
       ]
     },
+    "22": {
+      "difficulty": "Medium",
+      "question_frontend_id": 22,
+      "title": "Generate Parentheses",
+      "title_slug": "generate-parentheses",
+      "topic_tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Backtracking",
+          "slug": "backtracking"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ]
+    },
     "226": {
       "difficulty": "Easy",
       "question_frontend_id": 226,
@@ -1037,6 +1061,26 @@
         {
           "name": "Quicksort",
           "slug": "quicksort"
+        }
+      ]
+    },
+    "560": {
+      "difficulty": "Medium",
+      "question_frontend_id": 560,
+      "title": "Subarray Sum Equals K",
+      "title_slug": "subarray-sum-equals-k",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Prefix Sum",
+          "slug": "prefix-sum"
         }
       ]
     },

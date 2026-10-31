@@ -5,41 +5,41 @@
 <text x="20" y="78" font-size="13" fill="#1f2933">Array</text>
 <rect x="220" y="64" width="464" height="18" fill="#e5e7eb" rx="6" />
 <rect x="220" y="64" width="464" height="18" fill="#2563eb" rx="6" />
-<text x="692" y="78" font-size="13" fill="#1f2933">37</text>
+<text x="692" y="78" font-size="13" fill="#1f2933">38</text>
 <text x="20" y="112" font-size="13" fill="#1f2933">Dynamic Programming</text>
 <rect x="220" y="98" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="98" width="225" height="18" fill="#2563eb" rx="6" />
-<text x="453" y="112" font-size="13" fill="#1f2933">18</text>
+<rect x="220" y="98" width="232" height="18" fill="#2563eb" rx="6" />
+<text x="460" y="112" font-size="13" fill="#1f2933">19</text>
 <text x="20" y="146" font-size="13" fill="#1f2933">Hash Table</text>
 <rect x="220" y="132" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="132" width="225" height="18" fill="#2563eb" rx="6" />
-<text x="453" y="146" font-size="13" fill="#1f2933">18</text>
+<rect x="220" y="132" width="232" height="18" fill="#2563eb" rx="6" />
+<text x="460" y="146" font-size="13" fill="#1f2933">19</text>
 <text x="20" y="180" font-size="13" fill="#1f2933">String</text>
 <rect x="220" y="166" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="166" width="137" height="18" fill="#2563eb" rx="6" />
-<text x="365" y="180" font-size="13" fill="#1f2933">11</text>
+<rect x="220" y="166" width="146" height="18" fill="#2563eb" rx="6" />
+<text x="374" y="180" font-size="13" fill="#1f2933">12</text>
 <text x="20" y="214" font-size="13" fill="#1f2933">Breadth-First Search</text>
 <rect x="220" y="200" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="200" width="125" height="18" fill="#2563eb" rx="6" />
-<text x="353" y="214" font-size="13" fill="#1f2933">10</text>
+<rect x="220" y="200" width="122" height="18" fill="#2563eb" rx="6" />
+<text x="350" y="214" font-size="13" fill="#1f2933">10</text>
 <text x="20" y="248" font-size="13" fill="#1f2933">Sorting</text>
 <rect x="220" y="234" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="234" width="125" height="18" fill="#2563eb" rx="6" />
-<text x="353" y="248" font-size="13" fill="#1f2933">10</text>
+<rect x="220" y="234" width="122" height="18" fill="#2563eb" rx="6" />
+<text x="350" y="248" font-size="13" fill="#1f2933">10</text>
 <text x="20" y="282" font-size="13" fill="#1f2933">Two Pointers</text>
 <rect x="220" y="268" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="268" width="125" height="18" fill="#2563eb" rx="6" />
-<text x="353" y="282" font-size="13" fill="#1f2933">10</text>
+<rect x="220" y="268" width="122" height="18" fill="#2563eb" rx="6" />
+<text x="350" y="282" font-size="13" fill="#1f2933">10</text>
 <text x="20" y="316" font-size="13" fill="#1f2933">Depth-First Search</text>
 <rect x="220" y="302" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="302" width="112" height="18" fill="#2563eb" rx="6" />
-<text x="340" y="316" font-size="13" fill="#1f2933">9</text>
+<rect x="220" y="302" width="109" height="18" fill="#2563eb" rx="6" />
+<text x="337" y="316" font-size="13" fill="#1f2933">9</text>
 <text x="20" y="350" font-size="13" fill="#1f2933">Binary Search</text>
 <rect x="220" y="336" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="336" width="87" height="18" fill="#2563eb" rx="6" />
-<text x="315" y="350" font-size="13" fill="#1f2933">7</text>
+<rect x="220" y="336" width="85" height="18" fill="#2563eb" rx="6" />
+<text x="313" y="350" font-size="13" fill="#1f2933">7</text>
 <text x="20" y="384" font-size="13" fill="#1f2933">Linked List</text>
 <rect x="220" y="370" width="464" height="18" fill="#e5e7eb" rx="6" />
-<rect x="220" y="370" width="87" height="18" fill="#2563eb" rx="6" />
-<text x="315" y="384" font-size="13" fill="#1f2933">7</text>
+<rect x="220" y="370" width="85" height="18" fill="#2563eb" rx="6" />
+<text x="313" y="384" font-size="13" fill="#1f2933">7</text>
 </svg>
