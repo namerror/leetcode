@@ -33,7 +33,7 @@ You can also run `python3 add.py 36` directly from the repository.
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 77 problems. Easy: 18, Medium: 52, Hard: 2.
+Solved 72 problems. Easy: 18, Medium: 52, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -94,12 +94,10 @@ Solved 77 problems. Easy: 18, Medium: 52, Hard: 2.
 | [Range Minimum/Maximum Query](https://leetcode.com/tag/range-minimum-maximum-query/) | 1 |
 | [Segment Tree](https://leetcode.com/tag/segment-tree/) | 1 |
 | [Trie](https://leetcode.com/tag/trie/) | 1 |
-
-Unresolved metadata for problem ids: 39, 42, 767, 981, 3413.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 77
+Total count: 72
 - [1. Two Sum](problems/1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [5. Longest Palindromic Substring](problems/5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
 - [11. Container With Most Water](problems/11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
@@ -110,8 +108,6 @@ Total count: 77
 - [22. Generate Parentheses](problems/22_Generate_Parentheses.py) ([LeetCode](https://leetcode.com/problems/generate-parentheses/))
 - [33. Search in Rotated Sorted Array](problems/33_Search_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/))
 - [36. Valid Sudoku](problems/36_Valid_Sudoku.py) ([LeetCode](https://leetcode.com/problems/valid-sudoku/))
-- [39. Combination Sum](problems/39_Combination_Sum.py)
-- [42. Trapping Rain Water](problems/42_Trapping_Rain_Water.py)
 - [49. Group Anagrams](problems/49_Group_Anagrams.py) ([LeetCode](https://leetcode.com/problems/group-anagrams/))
 - [53. Maximum Subarray](problems/53_Maximum_Subarray.py) ([LeetCode](https://leetcode.com/problems/maximum-subarray/))
 - [55. Jump Game](problems/55_Jump_Game.py) ([LeetCode](https://leetcode.com/problems/jump-game/))
@@ -170,10 +166,7 @@ Total count: 77
 - [740. Delete and Earn](problems/740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
 - [746. Min Cost Climbing Stairs](problems/746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
 - [763. Partition Labels](problems/763_Partition_Labels.py) ([LeetCode](https://leetcode.com/problems/partition-labels/))
-- [767. Reorganize String](problems/767_Reorganize_String.py)
 - [875. Koko Eating Bananas](problems/875_Koko_Eating_Bananas.py) ([LeetCode](https://leetcode.com/problems/koko-eating-bananas/))
 - [973. K Closest Points to Origin](problems/973_K_Closest_Points_to_Origin.py) ([LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/))
-- [981. Time Based Key-Value Store](problems/981_Time_Based_Key-Value_Store.py)
 - [994. Rotting Oranges](problems/994_Rotting_Oranges.py) ([LeetCode](https://leetcode.com/problems/rotting-oranges/))
 - [1137. N-th Tribonacci Number](problems/1137_Nth_Tribonacci_Number.py) ([LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/))
-- [3413. Maximum Coins From K Consecutive Bags](problems/3413_Maximum_Coins_From_K_Consecutive_Bags.py)
