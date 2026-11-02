@@ -31,7 +31,7 @@ You can also run `python3 add.py 36` directly from the repository.
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 70 problems. Easy: 18, Medium: 50, Hard: 2.
+Solved 72 problems. Easy: 18, Medium: 52, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -40,9 +40,9 @@ Solved 70 problems. Easy: 18, Medium: 50, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 38 |
-| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 19 |
-| [Hash Table](https://leetcode.com/tag/hash-table/) | 19 |
+| [Array](https://leetcode.com/tag/array/) | 40 |
+| [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 20 |
+| [Hash Table](https://leetcode.com/tag/hash-table/) | 20 |
 | [String](https://leetcode.com/tag/string/) | 12 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 10 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 10 |
@@ -51,11 +51,11 @@ Solved 70 problems. Easy: 18, Medium: 50, Hard: 2.
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 7 |
 | [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
+| [Matrix](https://leetcode.com/tag/matrix/) | 6 |
 | [Stack](https://leetcode.com/tag/stack/) | 6 |
 | [Tree](https://leetcode.com/tag/tree/) | 6 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 5 |
-| [Matrix](https://leetcode.com/tag/matrix/) | 5 |
 | [Backtracking](https://leetcode.com/tag/backtracking/) | 4 |
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 4 |
 | [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 4 |
@@ -69,10 +69,12 @@ Solved 70 problems. Easy: 18, Medium: 50, Hard: 2.
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 2 |
 | [Counting](https://leetcode.com/tag/counting/) | 2 |
 | [Knapsack Problem](https://leetcode.com/tag/knapsack-problem/) | 2 |
+| [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 2 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 2 |
 | [Topological Sort](https://leetcode.com/tag/topological-sort/) | 2 |
 | [Union-Find](https://leetcode.com/tag/union-find/) | 2 |
 | [0-1 Knapsack](https://leetcode.com/tag/0-1-knapsack/) | 1 |
+| [Binary Indexed Tree](https://leetcode.com/tag/binary-indexed-tree/) | 1 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
 | [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/) | 1 |
@@ -84,16 +86,16 @@ Solved 70 problems. Easy: 18, Medium: 50, Hard: 2.
 | [Floyd's Cycle Finding Algorithm](https://leetcode.com/tag/floyds-cycle-finding-algorithm/) | 1 |
 | [Geometry](https://leetcode.com/tag/geometry/) | 1 |
 | [K-D Tree](https://leetcode.com/tag/k-d-tree/) | 1 |
-| [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 1 |
 | [Lowest Common Ancestor](https://leetcode.com/tag/lowest-common-ancestor/) | 1 |
 | [Manacher](https://leetcode.com/tag/manacher/) | 1 |
 | [Quicksort](https://leetcode.com/tag/quicksort/) | 1 |
 | [Range Minimum/Maximum Query](https://leetcode.com/tag/range-minimum-maximum-query/) | 1 |
+| [Segment Tree](https://leetcode.com/tag/segment-tree/) | 1 |
 | [Trie](https://leetcode.com/tag/trie/) | 1 |
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 70
+Total count: 72
 - [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [5. Longest Palindromic Substring](5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
 - [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
@@ -103,6 +105,7 @@ Total count: 70
 - [21. Merge Two Sorted Lists](21_Merge_Two_Sorted_Lists.py) ([LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
 - [22. Generate Parentheses](22_Generate_Parentheses.py) ([LeetCode](https://leetcode.com/problems/generate-parentheses/))
 - [33. Search in Rotated Sorted Array](33_Search_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/))
+- [36. Valid Sudoku](36_Valid_Sudoku.py) ([LeetCode](https://leetcode.com/problems/valid-sudoku/))
 - [49. Group Anagrams](49_Group_Anagrams.py) ([LeetCode](https://leetcode.com/problems/group-anagrams/))
 - [53. Maximum Subarray](53_Maximum_Subarray.py) ([LeetCode](https://leetcode.com/problems/maximum-subarray/))
 - [55. Jump Game](55_Jump_Game.py) ([LeetCode](https://leetcode.com/problems/jump-game/))
@@ -155,6 +158,7 @@ Total count: 70
 - [560. Subarray Sum Equals K](560_Subarray_Sum_Equals_K.py) ([LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/))
 - [567. Permutation in String](567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
 - [621. Task Scheduler](621_Task_Scheduler.py) ([LeetCode](https://leetcode.com/problems/task-scheduler/))
+- [673. Number of Longest Increasing Subsequence](673_Number_of_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/number-of-longest-increasing-subsequence/))
 - [704. Binary Search](704_Binary_Search.py) ([LeetCode](https://leetcode.com/problems/binary-search/))
 - [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
 - [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))

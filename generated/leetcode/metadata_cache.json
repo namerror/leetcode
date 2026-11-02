@@ -836,6 +836,26 @@
         }
       ]
     },
+    "36": {
+      "difficulty": "Medium",
+      "question_frontend_id": 36,
+      "title": "Valid Sudoku",
+      "title_slug": "valid-sudoku",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
+        }
+      ]
+    },
     "424": {
       "difficulty": "Medium",
       "question_frontend_id": 424,
@@ -1209,6 +1229,34 @@
         {
           "name": "Matrix",
           "slug": "matrix"
+        }
+      ]
+    },
+    "673": {
+      "difficulty": "Medium",
+      "question_frontend_id": 673,
+      "title": "Number of Longest Increasing Subsequence",
+      "title_slug": "number-of-longest-increasing-subsequence",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Binary Indexed Tree",
+          "slug": "binary-indexed-tree"
+        },
+        {
+          "name": "Segment Tree",
+          "slug": "segment-tree"
+        },
+        {
+          "name": "Longest Increasing Subsequence",
+          "slug": "longest-increasing-subsequence"
         }
       ]
     },
