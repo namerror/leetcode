@@ -3,6 +3,32 @@ This repository contains my solutions to various [LeetCode problems](https://lee
 
 Non-LeetCode algorithm notes and examples live in [learning_examples](learning_examples/).
 
+## Add a problem template
+
+Run this once in your terminal to enable `add` for the current shell:
+
+```bash
+alias add='python3 /home/leon/Documents/proj/leetcode/add.py'
+```
+
+To keep the command available in new terminals, add that line to `~/.bashrc`
+and run `source ~/.bashrc`. Adjust the path if you move the repository.
+
+```bash
+add 36
+```
+
+The command writes `36_Valid_Sudoku.py` into this repository, even when run
+from another directory. It includes the question, examples, constraints,
+difficulty, source link, and the official Python 3 starter code. Starter code
+is preserved as supplied by LeetCode; empty method bodies need implementation
+before the file can run. Diagram links are included when present.
+
+Existing `<number>_*.py` files are skipped, including empty files. Internet
+access is required for new problems; unavailable or restricted content produces
+an error without creating a template. No extra Python packages are needed.
+You can also run `python3 add.py 36` directly from the repository.
+
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
 Solved 70 problems. Easy: 18, Medium: 50, Hard: 2.
