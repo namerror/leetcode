@@ -51,18 +51,33 @@ def make_metadata(
 
 
 class DiscoveryTests(unittest.TestCase):
+    def test_only_discovers_files_directly_in_problems(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "1_Root.py").touch()
+            self.assertEqual(discover_solution_entries(root), [])
+            problems = root / "problems"
+            problems.mkdir()
+            (problems / "2_Empty.py").touch()
+            (problems / "notes.py").touch()
+            (problems / "3_Directory.py").mkdir()
+            (problems / "3_Directory.py/4_Nested.py").touch()
+            entries = discover_solution_entries(root)
+            self.assertEqual([entry.file_name for entry in entries], ["problems/2_Empty.py"])
+
     def test_discover_solution_entries_sorts_numeric_and_prefers_readme_titles(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             repo_root = Path(tmp_dir)
-            (repo_root / "70_Climbing_Stairs.py").write_text("# ok\n", encoding="utf-8")
-            (repo_root / "2_Add_Two_Numbers.py").write_text("# ok\n", encoding="utf-8")
+            (repo_root / "problems").mkdir()
+            (repo_root / "problems/70_Climbing_Stairs.py").write_text("# ok\n", encoding="utf-8")
+            (repo_root / "problems/2_Add_Two_Numbers.py").write_text("# ok\n", encoding="utf-8")
             (repo_root / "notes.py").write_text("# ignore\n", encoding="utf-8")
             readme_text = "\n".join(
                 [
                     "## Index",
                     "Total count: 2",
-                    "- [70. Climbing Stairs](70_Climbing_Stairs.py)",
-                    "- [2. Add Two Numbers](2_Add_Two_Numbers.py)",
+                    "- [70. Climbing Stairs](problems/70_Climbing_Stairs.py)",
+                    "- [2. Add Two Numbers](problems/2_Add_Two_Numbers.py)",
                 ]
             )
 
@@ -75,7 +90,7 @@ class DiscoveryTests(unittest.TestCase):
 
 class ResolutionTests(unittest.TestCase):
     def test_resolve_problem_entries_uses_exact_id_match(self) -> None:
-        entry = ProblemEntry(509, "509_Fibonacci_Number.py", "Fibonacci Number")
+        entry = ProblemEntry(509, "problems/509_Fibonacci_Number.py", "Fibonacci Number")
         expected = make_metadata(
             509,
             "Fibonacci Number",
@@ -99,8 +114,8 @@ class ResolutionTests(unittest.TestCase):
             "Easy",
             [("Dynamic Programming", "dynamic-programming"), ("Math", "math")],
         )
-        resolved_title_entry = ProblemEntry(1137, "1137_Nth_Tribonacci_Number.py", "N-th Tribonacci Number")
-        unresolved_entry = ProblemEntry(9999, "9999_Missing_Problem.py", "Missing Problem")
+        resolved_title_entry = ProblemEntry(1137, "problems/1137_Nth_Tribonacci_Number.py", "N-th Tribonacci Number")
+        unresolved_entry = ProblemEntry(9999, "problems/9999_Missing_Problem.py", "Missing Problem")
         client = FakeClient(
             {
                 "1137": [],
@@ -130,11 +145,12 @@ class ResolutionTests(unittest.TestCase):
         )
         with tempfile.TemporaryDirectory() as tmp_dir:
             repo_root = Path(tmp_dir)
+            (repo_root / "problems").mkdir()
             (repo_root / "README.md").write_text(
-                "## Index\nTotal count: 1\n- [746. Min Cost Climbing Stairs](746_Min_Cost_Climbing_Stairs.py)\n",
+                "## Index\nTotal count: 1\n- [746. Min Cost Climbing Stairs](problems/746_Min_Cost_Climbing_Stairs.py)\n",
                 encoding="utf-8",
             )
-            (repo_root / "746_Min_Cost_Climbing_Stairs.py").write_text("# ok\n", encoding="utf-8")
+            (repo_root / "problems/746_Min_Cost_Climbing_Stairs.py").write_text("# ok\n", encoding="utf-8")
             cache_dir = repo_root / "generated/leetcode"
             cache_dir.mkdir(parents=True, exist_ok=True)
             save_cache(cache_dir / "metadata_cache.json", {746: cached})
@@ -183,8 +199,8 @@ class RenderingTests(unittest.TestCase):
             [("Array", "array"), ("Dynamic Programming", "dynamic-programming")],
         )
         entries = [
-            ProblemEntry(509, "509_Fibonacci_Number.py", "Fibonacci Number", fibonacci, "resolved"),
-            ProblemEntry(198, "198_House_Robber.py", "House Robber", robber, "resolved"),
+            ProblemEntry(509, "problems/509_Fibonacci_Number.py", "Fibonacci Number", fibonacci, "resolved"),
+            ProblemEntry(198, "problems/198_House_Robber.py", "House Robber", robber, "resolved"),
         ]
 
         self.assertEqual(count_difficulties(entries), {"Easy": 1, "Medium": 1, "Hard": 0})
@@ -195,6 +211,40 @@ class RenderingTests(unittest.TestCase):
 
 
 class FormatterTests(unittest.TestCase):
+    def test_full_sync_from_other_directory_preserves_text_and_links(self):
+        import os
+        from urllib.parse import unquote
+        import re
+
+        with tempfile.TemporaryDirectory() as directory, tempfile.TemporaryDirectory() as elsewhere:
+            root = Path(directory)
+            (root / "problems").mkdir()
+            (root / "problems/347_Top K_Frequent_Elements.py").touch()
+            readme = root / "README.md"
+            readme.write_text("# Notes\n\nIntro.\n\n## Index\nOld index\n\n## After\nKeep me.\n")
+            cached = make_metadata(347, "Top K Frequent Elements", "top-k-frequent-elements", "Medium", [])
+            cache_dir = root / "generated/leetcode"
+            cache_dir.mkdir(parents=True)
+            save_cache(cache_dir / "metadata_cache.json", {347: cached})
+            previous = Path.cwd()
+            try:
+                os.chdir(elsewhere)
+                with mock.patch("leetcode_progress.LeetCodeMetadataClient", return_value=FakeClient({})):
+                    self.assertTrue(Markdown_formatter.sync_readme(root))
+                    first_assets = {p.name: p.read_bytes() for p in cache_dir.iterdir()}
+                    self.assertFalse(Markdown_formatter.sync_readme(root))
+                    self.assertEqual(first_assets, {p.name: p.read_bytes() for p in cache_dir.iterdir()})
+            finally:
+                os.chdir(previous)
+            text = readme.read_text()
+            self.assertTrue(text.startswith("# Notes\n\nIntro."))
+            self.assertIn("## After\nKeep me.", text)
+            self.assertIn("Total count: 1", text)
+            self.assertIn("problems/347_Top%20K_Frequent_Elements.py", text)
+            for link in re.findall(r"\]\(([^)]+)\)", text):
+                if not link.startswith("https:"):
+                    self.assertTrue((root / unquote(link)).is_file(), link)
+
     def test_upsert_dashboard_block_places_block_before_index(self) -> None:
         readme = "# Title\n\nIntro text.\n\n## Index\nTotal count: 0\n"
         dashboard = (
@@ -214,12 +264,12 @@ class FormatterTests(unittest.TestCase):
             entries=[
                 ProblemEntry(
                     62,
-                    "62_Unique_Paths.py",
+                    "problems/62_Unique_Paths.py",
                     "Unique Paths",
                     make_metadata(62, "Unique Paths", "unique-paths", "Medium", [("Math", "math")]),
                     "resolved",
                 ),
-                ProblemEntry(9999, "9999_Unresolved.py", "Unresolved", None, None),
+                ProblemEntry(9999, "problems/9999_Unresolved.py", "Unresolved", None, None),
             ],
             dashboard_markdown="dashboard\n",
             difficulty_chart_path="generated/leetcode/difficulty_breakdown.svg",
@@ -230,17 +280,17 @@ class FormatterTests(unittest.TestCase):
         section = Markdown_formatter._render_index_section(progress, "\n")
 
         self.assertIn(
-            "- [62. Unique Paths](62_Unique_Paths.py) ([LeetCode](https://leetcode.com/problems/unique-paths/))",
+            "- [62. Unique Paths](problems/62_Unique_Paths.py) ([LeetCode](https://leetcode.com/problems/unique-paths/))",
             section,
         )
-        self.assertIn("- [9999. Unresolved](9999_Unresolved.py)", section)
+        self.assertIn("- [9999. Unresolved](problems/9999_Unresolved.py)", section)
 
     def test_sync_readme_is_idempotent(self) -> None:
         fake_progress = ProgressResult(
             entries=[
                 ProblemEntry(
                     70,
-                    "70_Climbing_Stairs.py",
+                    "problems/70_Climbing_Stairs.py",
                     "Climbing Stairs",
                     make_metadata(70, "Climbing Stairs", "climbing-stairs", "Easy", [("Math", "math")]),
                     "resolved",
@@ -268,6 +318,7 @@ class FormatterTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp_dir:
             repo_root = Path(tmp_dir)
+            (repo_root / "problems").mkdir()
             readme_path = repo_root / "README.md"
             readme_path.write_text(
                 "# Title\n\nIntro text.\n\n## Index\nTotal count: 0\n",

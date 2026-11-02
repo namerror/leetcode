@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Run tooling tests
+        run: python -B -m unittest discover -v
+
       - name: Regenerate README dashboard
         env:
           PYTHONDONTWRITEBYTECODE: "1"

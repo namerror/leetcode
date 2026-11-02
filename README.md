@@ -1,6 +1,8 @@
 # LeedCode Solutions
 This repository contains my solutions to various [LeetCode problems](https://leetcode.com/problemset/all/). I'm only doing leetcode for fun - no stress.
 
+LeetCode problem files live in [problems](problems/).
+
 Non-LeetCode algorithm notes and examples live in [learning_examples](learning_examples/).
 
 ## Add a problem template
@@ -18,20 +20,20 @@ and run `source ~/.bashrc`. Adjust the path if you move the repository.
 add 36
 ```
 
-The command writes `36_Valid_Sudoku.py` into this repository, even when run
+The command writes `problems/36_Valid_Sudoku.py` into this repository, even when run
 from another directory. It includes the question, examples, constraints,
 difficulty, source link, and the official Python 3 starter code. Starter code
 is preserved as supplied by LeetCode; empty method bodies need implementation
 before the file can run. Diagram links are included when present.
 
-Existing `<number>_*.py` files are skipped, including empty files. Internet
+Existing `problems/<number>_*.py` files are skipped, including empty files. Internet
 access is required for new problems; unavailable or restricted content produces
 an error without creating a template. No extra Python packages are needed.
 You can also run `python3 add.py 36` directly from the repository.
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 72 problems. Easy: 18, Medium: 52, Hard: 2.
+Solved 77 problems. Easy: 18, Medium: 52, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -92,79 +94,86 @@ Solved 72 problems. Easy: 18, Medium: 52, Hard: 2.
 | [Range Minimum/Maximum Query](https://leetcode.com/tag/range-minimum-maximum-query/) | 1 |
 | [Segment Tree](https://leetcode.com/tag/segment-tree/) | 1 |
 | [Trie](https://leetcode.com/tag/trie/) | 1 |
+
+Unresolved metadata for problem ids: 39, 42, 767, 981, 3413.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 72
-- [1. Two Sum](1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
-- [5. Longest Palindromic Substring](5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
-- [11. Container With Most Water](11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
-- [15. 3Sum](15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
-- [19. Remove Nth Node From End of List](19_Remove_Nth_Node_From_End_of_List.py) ([LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/))
-- [20. Valid Parentheses](20_Valid_Parentheses.py) ([LeetCode](https://leetcode.com/problems/valid-parentheses/))
-- [21. Merge Two Sorted Lists](21_Merge_Two_Sorted_Lists.py) ([LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
-- [22. Generate Parentheses](22_Generate_Parentheses.py) ([LeetCode](https://leetcode.com/problems/generate-parentheses/))
-- [33. Search in Rotated Sorted Array](33_Search_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/))
-- [36. Valid Sudoku](36_Valid_Sudoku.py) ([LeetCode](https://leetcode.com/problems/valid-sudoku/))
-- [49. Group Anagrams](49_Group_Anagrams.py) ([LeetCode](https://leetcode.com/problems/group-anagrams/))
-- [53. Maximum Subarray](53_Maximum_Subarray.py) ([LeetCode](https://leetcode.com/problems/maximum-subarray/))
-- [55. Jump Game](55_Jump_Game.py) ([LeetCode](https://leetcode.com/problems/jump-game/))
-- [56. Merge Intervals](56_Merge_Intervals.py) ([LeetCode](https://leetcode.com/problems/merge-intervals/))
-- [57. Insert Interval](57_Insert_Interval.py) ([LeetCode](https://leetcode.com/problems/insert-interval/))
-- [62. Unique Paths](62_Unique_Paths.py) ([LeetCode](https://leetcode.com/problems/unique-paths/))
-- [63. Unique Paths II](63_Unique_Paths_II.py) ([LeetCode](https://leetcode.com/problems/unique-paths-ii/))
-- [64. Minimum Path Sum](64_Minimum_Path_Sum.py) ([LeetCode](https://leetcode.com/problems/minimum-path-sum/))
-- [70. Climbing Stairs](70_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
-- [74. Search a 2D Matrix](74_Search_a_2D_Matrix.py) ([LeetCode](https://leetcode.com/problems/search-a-2d-matrix/))
-- [76. Minimum Window Substring](76_Minimum_Window_Substring.py) ([LeetCode](https://leetcode.com/problems/minimum-window-substring/))
-- [78. Subsets](78_Subsets.py) ([LeetCode](https://leetcode.com/problems/subsets/))
-- [84. Largest Rectangle in Histogram](84_Largest_Rectangle_in_Hostogram.py) ([LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/))
-- [98. Validate Binary Search Tree](98_Validate_Binary_Search_Tree.py) ([LeetCode](https://leetcode.com/problems/validate-binary-search-tree/))
-- [100. Same Tree](100_Same_Tree.py) ([LeetCode](https://leetcode.com/problems/same-tree/))
-- [102. Binary Tree Level Order Traversal](102_Binary_Tree_Level_Order_Traversal.py) ([LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/))
-- [104. Maximum Depth of Binary Tree](104_Maximum_Depth_of_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/))
-- [121. Best Time to Buy and Sell Stock](121_Best_Time_to_Buy_and_Sell_Stock.py) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/))
-- [125. Valid Palindrome](125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
-- [128. Longest Consecutive Sequence](128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
-- [131. Palindrome Partitioning](131_Palindrome_Partitioning.py) ([LeetCode](https://leetcode.com/problems/palindrome-partitioning/))
-- [133. Clone Graph](133_Clone_Graph.py) ([LeetCode](https://leetcode.com/problems/clone-graph/))
-- [138. Copy List with Random Pointer](138_Copy_List_with_Random_Pointer.py) ([LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/))
-- [141. Linked List Cycle](141_Linked_List_Cycle.py) ([LeetCode](https://leetcode.com/problems/linked-list-cycle/))
-- [143. Reorder List](143_Reorder_List.py) ([LeetCode](https://leetcode.com/problems/reorder-list/))
-- [146. LRU Cache](146_LRU_Cache.py) ([LeetCode](https://leetcode.com/problems/lru-cache/))
-- [153. Find Minimum in Rotated Sorted Array](153_Find_Minimum_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/))
-- [155. Min Stack](155_Min_Stack.py) ([LeetCode](https://leetcode.com/problems/min-stack/))
-- [167. Two Sum II - Input Array Is Sorted](167_Two_Sum_II_Input_Array_Is_Sorted.py) ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
-- [198. House Robber](198_House_Robber.py) ([LeetCode](https://leetcode.com/problems/house-robber/))
-- [200. Number of Islands](200_Number_of_Islands.py) ([LeetCode](https://leetcode.com/problems/number-of-islands/))
-- [206. Reverse Linked List](206_Reverse_Linked_List.py) ([LeetCode](https://leetcode.com/problems/reverse-linked-list/))
-- [207. Course Schedule](207_Course_Schedule.py) ([LeetCode](https://leetcode.com/problems/course-schedule/))
-- [208. Implement Trie (Prefix Tree)](208_Implement_Trie.py) ([LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/))
-- [210. Course Schedule II](210_Course_Schedule_II.py) ([LeetCode](https://leetcode.com/problems/course-schedule-ii/))
-- [215. Kth Largest Element in an Array](215_Kth_Largest_Element_in_an_Array.py) ([LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/))
-- [217. Contains Duplicate](217_Contains_Duplicate.py) ([LeetCode](https://leetcode.com/problems/contains-duplicate/))
-- [226. Invert Binary Tree](226_Invert_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/invert-binary-tree/))
-- [236. Lowest Common Ancestor of a Binary Tree](236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/))
-- [238. Product of Array Except Self](238_Product_of_Array_Except_Self.py) ([LeetCode](https://leetcode.com/problems/product-of-array-except-self/))
-- [242. Valid Anagram](242_Valid_Anagram.py) ([LeetCode](https://leetcode.com/problems/valid-anagram/))
-- [300. Longest Increasing Subsequence](300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
-- [322. Coin Change](322_Coin_Change.py) ([LeetCode](https://leetcode.com/problems/coin-change/))
-- [347. Top K Frequent Elements](347_Top K_Frequent_Elements.py) ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/))
-- [424. Longest Repeating Character Replacement](424_Longest_Repeating_Character_Replacement.py) ([LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/))
-- [435. Non-overlapping Intervals](435_Non-overlapping_Intervals.py) ([LeetCode](https://leetcode.com/problems/non-overlapping-intervals/))
-- [494. Target Sum](494_Target_Sum.py) ([LeetCode](https://leetcode.com/problems/target-sum/))
-- [496. Next Greater Element I](496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
-- [509. Fibonacci Number](509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
-- [560. Subarray Sum Equals K](560_Subarray_Sum_Equals_K.py) ([LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/))
-- [567. Permutation in String](567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
-- [621. Task Scheduler](621_Task_Scheduler.py) ([LeetCode](https://leetcode.com/problems/task-scheduler/))
-- [673. Number of Longest Increasing Subsequence](673_Number_of_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/number-of-longest-increasing-subsequence/))
-- [704. Binary Search](704_Binary_Search.py) ([LeetCode](https://leetcode.com/problems/binary-search/))
-- [739. Daily Temperatures](739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
-- [740. Delete and Earn](740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
-- [746. Min Cost Climbing Stairs](746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
-- [763. Partition Labels](763_Partition_Labels.py) ([LeetCode](https://leetcode.com/problems/partition-labels/))
-- [875. Koko Eating Bananas](875_Koko_Eating_Bananas.py) ([LeetCode](https://leetcode.com/problems/koko-eating-bananas/))
-- [973. K Closest Points to Origin](973_K_Closest_Points_to_Origin.py) ([LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/))
-- [994. Rotting Oranges](994_Rotting_Oranges.py) ([LeetCode](https://leetcode.com/problems/rotting-oranges/))
-- [1137. N-th Tribonacci Number](1137_Nth_Tribonacci_Number.py) ([LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/))
+Total count: 77
+- [1. Two Sum](problems/1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
+- [5. Longest Palindromic Substring](problems/5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
+- [11. Container With Most Water](problems/11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
+- [15. 3Sum](problems/15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
+- [19. Remove Nth Node From End of List](problems/19_Remove_Nth_Node_From_End_of_List.py) ([LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/))
+- [20. Valid Parentheses](problems/20_Valid_Parentheses.py) ([LeetCode](https://leetcode.com/problems/valid-parentheses/))
+- [21. Merge Two Sorted Lists](problems/21_Merge_Two_Sorted_Lists.py) ([LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
+- [22. Generate Parentheses](problems/22_Generate_Parentheses.py) ([LeetCode](https://leetcode.com/problems/generate-parentheses/))
+- [33. Search in Rotated Sorted Array](problems/33_Search_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/))
+- [36. Valid Sudoku](problems/36_Valid_Sudoku.py) ([LeetCode](https://leetcode.com/problems/valid-sudoku/))
+- [39. Combination Sum](problems/39_Combination_Sum.py)
+- [42. Trapping Rain Water](problems/42_Trapping_Rain_Water.py)
+- [49. Group Anagrams](problems/49_Group_Anagrams.py) ([LeetCode](https://leetcode.com/problems/group-anagrams/))
+- [53. Maximum Subarray](problems/53_Maximum_Subarray.py) ([LeetCode](https://leetcode.com/problems/maximum-subarray/))
+- [55. Jump Game](problems/55_Jump_Game.py) ([LeetCode](https://leetcode.com/problems/jump-game/))
+- [56. Merge Intervals](problems/56_Merge_Intervals.py) ([LeetCode](https://leetcode.com/problems/merge-intervals/))
+- [57. Insert Interval](problems/57_Insert_Interval.py) ([LeetCode](https://leetcode.com/problems/insert-interval/))
+- [62. Unique Paths](problems/62_Unique_Paths.py) ([LeetCode](https://leetcode.com/problems/unique-paths/))
+- [63. Unique Paths II](problems/63_Unique_Paths_II.py) ([LeetCode](https://leetcode.com/problems/unique-paths-ii/))
+- [64. Minimum Path Sum](problems/64_Minimum_Path_Sum.py) ([LeetCode](https://leetcode.com/problems/minimum-path-sum/))
+- [70. Climbing Stairs](problems/70_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/climbing-stairs/))
+- [74. Search a 2D Matrix](problems/74_Search_a_2D_Matrix.py) ([LeetCode](https://leetcode.com/problems/search-a-2d-matrix/))
+- [76. Minimum Window Substring](problems/76_Minimum_Window_Substring.py) ([LeetCode](https://leetcode.com/problems/minimum-window-substring/))
+- [78. Subsets](problems/78_Subsets.py) ([LeetCode](https://leetcode.com/problems/subsets/))
+- [84. Largest Rectangle in Histogram](problems/84_Largest_Rectangle_in_Hostogram.py) ([LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/))
+- [98. Validate Binary Search Tree](problems/98_Validate_Binary_Search_Tree.py) ([LeetCode](https://leetcode.com/problems/validate-binary-search-tree/))
+- [100. Same Tree](problems/100_Same_Tree.py) ([LeetCode](https://leetcode.com/problems/same-tree/))
+- [102. Binary Tree Level Order Traversal](problems/102_Binary_Tree_Level_Order_Traversal.py) ([LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/))
+- [104. Maximum Depth of Binary Tree](problems/104_Maximum_Depth_of_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/))
+- [121. Best Time to Buy and Sell Stock](problems/121_Best_Time_to_Buy_and_Sell_Stock.py) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/))
+- [125. Valid Palindrome](problems/125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
+- [128. Longest Consecutive Sequence](problems/128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
+- [131. Palindrome Partitioning](problems/131_Palindrome_Partitioning.py) ([LeetCode](https://leetcode.com/problems/palindrome-partitioning/))
+- [133. Clone Graph](problems/133_Clone_Graph.py) ([LeetCode](https://leetcode.com/problems/clone-graph/))
+- [138. Copy List with Random Pointer](problems/138_Copy_List_with_Random_Pointer.py) ([LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/))
+- [141. Linked List Cycle](problems/141_Linked_List_Cycle.py) ([LeetCode](https://leetcode.com/problems/linked-list-cycle/))
+- [143. Reorder List](problems/143_Reorder_List.py) ([LeetCode](https://leetcode.com/problems/reorder-list/))
+- [146. LRU Cache](problems/146_LRU_Cache.py) ([LeetCode](https://leetcode.com/problems/lru-cache/))
+- [153. Find Minimum in Rotated Sorted Array](problems/153_Find_Minimum_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/))
+- [155. Min Stack](problems/155_Min_Stack.py) ([LeetCode](https://leetcode.com/problems/min-stack/))
+- [167. Two Sum II - Input Array Is Sorted](problems/167_Two_Sum_II_Input_Array_Is_Sorted.py) ([LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/))
+- [198. House Robber](problems/198_House_Robber.py) ([LeetCode](https://leetcode.com/problems/house-robber/))
+- [200. Number of Islands](problems/200_Number_of_Islands.py) ([LeetCode](https://leetcode.com/problems/number-of-islands/))
+- [206. Reverse Linked List](problems/206_Reverse_Linked_List.py) ([LeetCode](https://leetcode.com/problems/reverse-linked-list/))
+- [207. Course Schedule](problems/207_Course_Schedule.py) ([LeetCode](https://leetcode.com/problems/course-schedule/))
+- [208. Implement Trie (Prefix Tree)](problems/208_Implement_Trie.py) ([LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/))
+- [210. Course Schedule II](problems/210_Course_Schedule_II.py) ([LeetCode](https://leetcode.com/problems/course-schedule-ii/))
+- [215. Kth Largest Element in an Array](problems/215_Kth_Largest_Element_in_an_Array.py) ([LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/))
+- [217. Contains Duplicate](problems/217_Contains_Duplicate.py) ([LeetCode](https://leetcode.com/problems/contains-duplicate/))
+- [226. Invert Binary Tree](problems/226_Invert_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/invert-binary-tree/))
+- [236. Lowest Common Ancestor of a Binary Tree](problems/236_Lowest_Common_Ancestor_of_a_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/))
+- [238. Product of Array Except Self](problems/238_Product_of_Array_Except_Self.py) ([LeetCode](https://leetcode.com/problems/product-of-array-except-self/))
+- [242. Valid Anagram](problems/242_Valid_Anagram.py) ([LeetCode](https://leetcode.com/problems/valid-anagram/))
+- [300. Longest Increasing Subsequence](problems/300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
+- [322. Coin Change](problems/322_Coin_Change.py) ([LeetCode](https://leetcode.com/problems/coin-change/))
+- [347. Top K Frequent Elements](problems/347_Top%20K_Frequent_Elements.py) ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/))
+- [424. Longest Repeating Character Replacement](problems/424_Longest_Repeating_Character_Replacement.py) ([LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/))
+- [435. Non-overlapping Intervals](problems/435_Non-overlapping_Intervals.py) ([LeetCode](https://leetcode.com/problems/non-overlapping-intervals/))
+- [494. Target Sum](problems/494_Target_Sum.py) ([LeetCode](https://leetcode.com/problems/target-sum/))
+- [496. Next Greater Element I](problems/496_Next_Greater_Element_I.py) ([LeetCode](https://leetcode.com/problems/next-greater-element-i/))
+- [509. Fibonacci Number](problems/509_Fibonacci_Number.py) ([LeetCode](https://leetcode.com/problems/fibonacci-number/))
+- [560. Subarray Sum Equals K](problems/560_Subarray_Sum_Equals_K.py) ([LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/))
+- [567. Permutation in String](problems/567_Permutation_in_String.py) ([LeetCode](https://leetcode.com/problems/permutation-in-string/))
+- [621. Task Scheduler](problems/621_Task_Scheduler.py) ([LeetCode](https://leetcode.com/problems/task-scheduler/))
+- [673. Number of Longest Increasing Subsequence](problems/673_Number_of_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/number-of-longest-increasing-subsequence/))
+- [704. Binary Search](problems/704_Binary_Search.py) ([LeetCode](https://leetcode.com/problems/binary-search/))
+- [739. Daily Temperatures](problems/739_Daily_Temperatures.py) ([LeetCode](https://leetcode.com/problems/daily-temperatures/))
+- [740. Delete and Earn](problems/740_Delete_and_Earn.py) ([LeetCode](https://leetcode.com/problems/delete-and-earn/))
+- [746. Min Cost Climbing Stairs](problems/746_Min_Cost_Climbing_Stairs.py) ([LeetCode](https://leetcode.com/problems/min-cost-climbing-stairs/))
+- [763. Partition Labels](problems/763_Partition_Labels.py) ([LeetCode](https://leetcode.com/problems/partition-labels/))
+- [767. Reorganize String](problems/767_Reorganize_String.py)
+- [875. Koko Eating Bananas](problems/875_Koko_Eating_Bananas.py) ([LeetCode](https://leetcode.com/problems/koko-eating-bananas/))
+- [973. K Closest Points to Origin](problems/973_K_Closest_Points_to_Origin.py) ([LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/))
+- [981. Time Based Key-Value Store](problems/981_Time_Based_Key-Value_Store.py)
+- [994. Rotting Oranges](problems/994_Rotting_Oranges.py) ([LeetCode](https://leetcode.com/problems/rotting-oranges/))
+- [1137. N-th Tribonacci Number](problems/1137_Nth_Tribonacci_Number.py) ([LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/))
+- [3413. Maximum Coins From K Consecutive Bags](problems/3413_Maximum_Coins_From_K_Consecutive_Bags.py)

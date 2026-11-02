@@ -7,10 +7,12 @@ from __future__ import annotations
 
 from pathlib import Path
 import re
+from urllib.parse import quote
 
 from leetcode_progress import ProgressResult, sync_progress_assets_and_block
 
 
+REPO_ROOT = Path(__file__).resolve().parent
 README_PATH = Path("README.md")
 DASHBOARD_START = "<!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->"
 DASHBOARD_END = "<!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->"
@@ -36,7 +38,7 @@ def _find_index_section_bounds(readme_text: str) -> tuple[int, int]:
 def _render_index_section(progress: ProgressResult, newline: str) -> str:
     lines = ["## Index", f"Total count: {len(progress.entries)}"]
     for entry in progress.entries:
-        bullet = f"- [{entry.question_frontend_id}. {entry.display_title}]({entry.file_name})"
+        bullet = f"- [{entry.question_frontend_id}. {entry.display_title}]({quote(entry.file_name)})"
         if entry.problem_url:
             bullet += f" ([LeetCode]({entry.problem_url}))"
         lines.append(bullet)
@@ -65,7 +67,8 @@ def _upsert_dashboard_block(readme_text: str, dashboard_markdown: str, newline: 
     return prefix + newline * 2 + block + newline * 2 + suffix
 
 
-def sync_readme(repo_root: Path = Path("."), readme_path: Path = README_PATH) -> bool:
+def sync_readme(repo_root: Path = REPO_ROOT, readme_path: Path | None = None) -> bool:
+    readme_path = repo_root / README_PATH if readme_path is None else readme_path
     with readme_path.open("r", encoding="utf-8", newline="") as readme_file:
         readme_text = readme_file.read()
 

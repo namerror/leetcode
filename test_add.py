@@ -25,6 +25,22 @@ def question(number=36, snippet=None):
 
 
 class TemplateTests(unittest.TestCase):
+    def test_cli_from_another_directory_uses_repository_problems(self):
+        import os
+
+        with tempfile.TemporaryDirectory() as directory, tempfile.TemporaryDirectory() as elsewhere:
+            root = Path(directory)
+            previous = Path.cwd()
+            try:
+                os.chdir(elsewhere)
+                with patch.object(add, "REPO_ROOT", root), patch.object(add, "TemplateClient") as client, redirect_stdout(io.StringIO()):
+                    client.return_value.fetch_question.return_value = question()
+                    self.assertEqual(add.main(["36"]), 0)
+                    self.assertTrue((root / "problems/36_Valid_Sudoku.py").is_file())
+                    self.assertEqual(list(Path(elsewhere).iterdir()), [])
+            finally:
+                os.chdir(previous)
+
     def test_render_preserves_description_and_exact_starter(self):
         q = question()
         filename, content = add.render_template(q)
@@ -59,13 +75,15 @@ class TemplateTests(unittest.TestCase):
             client = Mock()
             client.fetch_question.return_value = question()
             path = add.add_problem(36, root, client)
+            self.assertEqual(path, root / "problems/36_Valid_Sudoku.py")
+            self.assertFalse((root / "36_Valid_Sudoku.py").exists())
             original = path.read_bytes()
             client.reset_mock()
             self.assertIsNone(add.add_problem(36, root, client))
             self.assertEqual(path.read_bytes(), original)
             client.fetch_question.assert_not_called()
             path.unlink()
-            (root / "36_Old_Title.py").touch()
+            (root / "problems/36_Old_Title.py").touch()
             self.assertIsNone(add.add_problem(36, root, client))
             client.fetch_question.assert_not_called()
 
@@ -73,12 +91,13 @@ class TemplateTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory, redirect_stdout(io.StringIO()):
             root = Path(directory)
             def fetch(number):
-                (root / "36_Valid_Sudoku.py").write_text("existing")
+                (root / "problems").mkdir()
+                (root / "problems/36_Valid_Sudoku.py").write_text("existing")
                 return question()
             client = Mock()
             client.fetch_question.side_effect = fetch
             self.assertIsNone(add.add_problem(36, root, client))
-            self.assertEqual((root / "36_Valid_Sudoku.py").read_text(), "existing")
+            self.assertEqual((root / "problems/36_Valid_Sudoku.py").read_text(), "existing")
 
     def test_fetch_error_creates_no_file(self):
         with tempfile.TemporaryDirectory() as directory:

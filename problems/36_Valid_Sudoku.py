@@ -1,3 +1,4 @@
+# Accepted
 """
 36. Valid Sudoku
 Difficulty: Medium

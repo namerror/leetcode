@@ -10,7 +10,7 @@ import re
 import sys
 from urllib.parse import urljoin
 
-from leetcode_progress import LeetCodeMetadataClient
+from leetcode_progress import LeetCodeMetadataClient, PROBLEMS_DIR
 
 
 REPO_ROOT = Path(__file__).resolve().parent
@@ -126,13 +126,15 @@ def render_template(question: dict) -> tuple[str, str]:
 
 
 def add_problem(number: int, repo_root: Path, client: TemplateClient | None = None) -> Path | None:
-    existing = next(repo_root.glob(f"{number}_*.py"), None)
+    problems_dir = repo_root / PROBLEMS_DIR
+    existing = next((p for p in problems_dir.glob(f"{number}_*.py") if p.is_file()), None)
     if existing is not None:
         print(f"Skipped: {existing.name} already exists.")
         return None
     question = (client or TemplateClient()).fetch_question(number)
     filename, content = render_template(question)
-    destination = repo_root / filename
+    problems_dir.mkdir(parents=True, exist_ok=True)
+    destination = problems_dir / filename
     try:
         with destination.open("x", encoding="utf-8", newline="") as output:
             output.write(content)

@@ -19,6 +19,7 @@ from urllib import error, request
 GRAPHQL_URL = "https://leetcode.com/graphql"
 SOLUTION_FILE_RE = re.compile(r"^(?P<id>\d+)_(?P<name>.+)\.py$", re.ASCII)
 README_BULLET_RE = re.compile(r"^\s*-\s+\[(\d+)\.\s+([^\]]+)\]", re.MULTILINE)
+PROBLEMS_DIR = Path("problems")
 DASHBOARD_DIR = Path("generated/leetcode")
 CACHE_FILENAME = "metadata_cache.json"
 DIFFICULTY_SVG_FILENAME = "difficulty_breakdown.svg"
@@ -202,16 +203,19 @@ class LeetCodeMetadataClient:
 def discover_solution_entries(repo_root: Path, readme_text: str = "") -> list[ProblemEntry]:
     readme_titles = parse_readme_titles(readme_text)
     entries: list[ProblemEntry] = []
-    for path in sorted(repo_root.iterdir(), key=lambda item: item.name):
+    problems_dir = repo_root / PROBLEMS_DIR
+    if not problems_dir.exists():
+        return entries
+    for path in sorted(problems_dir.iterdir(), key=lambda item: item.name):
         match = SOLUTION_FILE_RE.match(path.name)
-        if not match:
+        if not match or not path.is_file():
             continue
         frontend_id = int(match.group("id"))
         fallback_title = readme_titles.get(frontend_id, _title_from_filename(match.group("name")))
         entries.append(
             ProblemEntry(
                 question_frontend_id=frontend_id,
-                file_name=path.name,
+                file_name=path.relative_to(repo_root).as_posix(),
                 fallback_title=fallback_title,
             )
         )
