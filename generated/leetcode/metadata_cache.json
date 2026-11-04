@@ -40,6 +40,30 @@
         }
       ]
     },
+    "1004": {
+      "difficulty": "Medium",
+      "question_frontend_id": 1004,
+      "title": "Max Consecutive Ones III",
+      "title_slug": "max-consecutive-ones-iii",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        },
+        {
+          "name": "Prefix Sum",
+          "slug": "prefix-sum"
+        }
+      ]
+    },
     "102": {
       "difficulty": "Medium",
       "question_frontend_id": 102,
@@ -796,6 +820,38 @@
         }
       ]
     },
+    "3413": {
+      "difficulty": "Medium",
+      "question_frontend_id": 3413,
+      "title": "Maximum Coins From K Consecutive Bags",
+      "title_slug": "maximum-coins-from-k-consecutive-bags",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Prefix Sum",
+          "slug": "prefix-sum"
+        }
+      ]
+    },
     "347": {
       "difficulty": "Medium",
       "question_frontend_id": 347,
@@ -853,6 +909,30 @@
         {
           "name": "Matrix",
           "slug": "matrix"
+        }
+      ]
+    },
+    "402": {
+      "difficulty": "Medium",
+      "question_frontend_id": 402,
+      "title": "Remove K Digits",
+      "title_slug": "remove-k-digits",
+      "topic_tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Monotonic Stack",
+          "slug": "monotonic-stack"
         }
       ]
     },
@@ -1413,6 +1493,38 @@
         {
           "name": "Greedy",
           "slug": "greedy"
+        }
+      ]
+    },
+    "767": {
+      "difficulty": "Medium",
+      "question_frontend_id": 767,
+      "title": "Reorganize String",
+      "title_slug": "reorganize-string",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Heap (Priority Queue)",
+          "slug": "heap-priority-queue"
+        },
+        {
+          "name": "Counting",
+          "slug": "counting"
         }
       ]
     },
