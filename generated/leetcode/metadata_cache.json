@@ -420,6 +420,26 @@
         }
       ]
     },
+    "1926": {
+      "difficulty": "Medium",
+      "question_frontend_id": 1926,
+      "title": "Nearest Exit from Entrance in Maze",
+      "title_slug": "nearest-exit-from-entrance-in-maze",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
+        }
+      ]
+    },
     "198": {
       "difficulty": "Medium",
       "question_frontend_id": 198,

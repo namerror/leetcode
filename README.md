@@ -33,7 +33,7 @@ You can also run `python3 add.py 36` directly from the repository.
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 76 problems. Easy: 18, Medium: 56, Hard: 2.
+Solved 77 problems. Easy: 18, Medium: 57, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -42,20 +42,20 @@ Solved 76 problems. Easy: 18, Medium: 56, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 42 |
+| [Array](https://leetcode.com/tag/array/) | 43 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 21 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 20 |
 | [String](https://leetcode.com/tag/string/) | 14 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 12 |
-| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 10 |
+| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 11 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 10 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 9 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 8 |
 | [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
+| [Matrix](https://leetcode.com/tag/matrix/) | 7 |
 | [Stack](https://leetcode.com/tag/stack/) | 7 |
 | [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
-| [Matrix](https://leetcode.com/tag/matrix/) | 6 |
 | [Tree](https://leetcode.com/tag/tree/) | 6 |
 | [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 5 |
@@ -97,7 +97,7 @@ Solved 76 problems. Easy: 18, Medium: 56, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 76
+Total count: 77
 - [1. Two Sum](problems/1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [5. Longest Palindromic Substring](problems/5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
 - [11. Container With Most Water](problems/11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
@@ -173,4 +173,5 @@ Total count: 76
 - [994. Rotting Oranges](problems/994_Rotting_Oranges.py) ([LeetCode](https://leetcode.com/problems/rotting-oranges/))
 - [1004. Max Consecutive Ones III](problems/1004_Max_Consecutive_Ones_III.py) ([LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/))
 - [1137. N-th Tribonacci Number](problems/1137_Nth_Tribonacci_Number.py) ([LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/))
+- [1926. Nearest Exit from Entrance in Maze](problems/1926_Nearest_Exit_from_Entrance_in_Maze.py) ([LeetCode](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/))
 - [3413. Maximum Coins From K Consecutive Bags](problems/3413_Maximum_Coins_From_K_Consecutive_Bags.py) ([LeetCode](https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/))
