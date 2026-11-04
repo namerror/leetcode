@@ -1,3 +1,4 @@
+# Accepted, took a long time
 """
 1004. Max Consecutive Ones III
 Difficulty: Medium
