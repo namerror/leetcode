@@ -33,7 +33,7 @@ You can also run `python3 add.py 36` directly from the repository.
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 77 problems. Easy: 18, Medium: 57, Hard: 2.
+Solved 80 problems. Easy: 19, Medium: 59, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -42,34 +42,35 @@ Solved 77 problems. Easy: 18, Medium: 57, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 43 |
-| [Hash Table](https://leetcode.com/tag/hash-table/) | 21 |
+| [Array](https://leetcode.com/tag/array/) | 45 |
+| [Hash Table](https://leetcode.com/tag/hash-table/) | 22 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 20 |
-| [String](https://leetcode.com/tag/string/) | 14 |
+| [String](https://leetcode.com/tag/string/) | 15 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 12 |
 | [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 11 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 10 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 9 |
 | [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 9 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 8 |
+| [Stack](https://leetcode.com/tag/stack/) | 8 |
+| [Binary Tree](https://leetcode.com/tag/binary-tree/) | 7 |
 | [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 7 |
-| [Stack](https://leetcode.com/tag/stack/) | 7 |
-| [Binary Tree](https://leetcode.com/tag/binary-tree/) | 6 |
-| [Tree](https://leetcode.com/tag/tree/) | 6 |
+| [Tree](https://leetcode.com/tag/tree/) | 7 |
+| [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 5 |
 | [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 5 |
+| [Recursion](https://leetcode.com/tag/recursion/) | 5 |
 | [Sliding Window](https://leetcode.com/tag/sliding-window/) | 5 |
 | [Backtracking](https://leetcode.com/tag/backtracking/) | 4 |
-| [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 4 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 4 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 4 |
-| [Recursion](https://leetcode.com/tag/recursion/) | 4 |
 | [Counting](https://leetcode.com/tag/counting/) | 3 |
 | [Design](https://leetcode.com/tag/design/) | 3 |
 | [Graph Theory](https://leetcode.com/tag/graph/) | 3 |
 | [Memoization](https://leetcode.com/tag/memoization/) | 3 |
 | [Quickselect](https://leetcode.com/tag/quickselect/) | 3 |
+| [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/) | 2 |
 | [Bracket Sequences](https://leetcode.com/tag/bracket-sequences/) | 2 |
 | [Knapsack Problem](https://leetcode.com/tag/knapsack-problem/) | 2 |
 | [Longest Increasing Subsequence](https://leetcode.com/tag/longest-increasing-subsequence/) | 2 |
@@ -79,7 +80,6 @@ Solved 77 problems. Easy: 18, Medium: 57, Hard: 2.
 | [Binary Indexed Tree](https://leetcode.com/tag/binary-indexed-tree/) | 1 |
 | [Binary Lifting](https://leetcode.com/tag/binary-lifting/) | 1 |
 | [Binary Search Tree](https://leetcode.com/tag/binary-search-tree/) | 1 |
-| [Bit Manipulation](https://leetcode.com/tag/bit-manipulation/) | 1 |
 | [Bucket Sort](https://leetcode.com/tag/bucket-sort/) | 1 |
 | [Combinatorics](https://leetcode.com/tag/combinatorics/) | 1 |
 | [Complete Knapsack](https://leetcode.com/tag/complete-knapsack/) | 1 |
@@ -97,7 +97,7 @@ Solved 77 problems. Easy: 18, Medium: 57, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 77
+Total count: 80
 - [1. Two Sum](problems/1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [5. Longest Palindromic Substring](problems/5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
 - [11. Container With Most Water](problems/11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
@@ -125,11 +125,13 @@ Total count: 77
 - [100. Same Tree](problems/100_Same_Tree.py) ([LeetCode](https://leetcode.com/problems/same-tree/))
 - [102. Binary Tree Level Order Traversal](problems/102_Binary_Tree_Level_Order_Traversal.py) ([LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/))
 - [104. Maximum Depth of Binary Tree](problems/104_Maximum_Depth_of_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/))
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](problems/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.py) ([LeetCode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/))
 - [121. Best Time to Buy and Sell Stock](problems/121_Best_Time_to_Buy_and_Sell_Stock.py) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/))
 - [125. Valid Palindrome](problems/125_Valid_Palindrome.py) ([LeetCode](https://leetcode.com/problems/valid-palindrome/))
 - [128. Longest Consecutive Sequence](problems/128_Longest_Consecutive_Sequence.py) ([LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/))
 - [131. Palindrome Partitioning](problems/131_Palindrome_Partitioning.py) ([LeetCode](https://leetcode.com/problems/palindrome-partitioning/))
 - [133. Clone Graph](problems/133_Clone_Graph.py) ([LeetCode](https://leetcode.com/problems/clone-graph/))
+- [136. Single Number](problems/136_Single_Number.py) ([LeetCode](https://leetcode.com/problems/single-number/))
 - [138. Copy List with Random Pointer](problems/138_Copy_List_with_Random_Pointer.py) ([LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/))
 - [141. Linked List Cycle](problems/141_Linked_List_Cycle.py) ([LeetCode](https://leetcode.com/problems/linked-list-cycle/))
 - [143. Reorder List](problems/143_Reorder_List.py) ([LeetCode](https://leetcode.com/problems/reorder-list/))
@@ -152,6 +154,7 @@ Total count: 77
 - [300. Longest Increasing Subsequence](problems/300_Longest_Increasing_Subsequence.py) ([LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/))
 - [322. Coin Change](problems/322_Coin_Change.py) ([LeetCode](https://leetcode.com/problems/coin-change/))
 - [347. Top K Frequent Elements](problems/347_Top%20K_Frequent_Elements.py) ([LeetCode](https://leetcode.com/problems/top-k-frequent-elements/))
+- [394. Decode String](problems/394_Decode_String.py) ([LeetCode](https://leetcode.com/problems/decode-string/))
 - [402. Remove K Digits](problems/402_Remove_K_Digits.py) ([LeetCode](https://leetcode.com/problems/remove-k-digits/))
 - [424. Longest Repeating Character Replacement](problems/424_Longest_Repeating_Character_Replacement.py) ([LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/))
 - [435. Non-overlapping Intervals](problems/435_Non-overlapping_Intervals.py) ([LeetCode](https://leetcode.com/problems/non-overlapping-intervals/))

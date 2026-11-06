@@ -108,6 +108,34 @@
         }
       ]
     },
+    "105": {
+      "difficulty": "Medium",
+      "question_frontend_id": 105,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "title_slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Divide and Conquer",
+          "slug": "divide-and-conquer"
+        },
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
+        }
+      ]
+    },
     "11": {
       "difficulty": "Medium",
       "question_frontend_id": 11,
@@ -241,6 +269,22 @@
         {
           "name": "Graph Theory",
           "slug": "graph"
+        }
+      ]
+    },
+    "136": {
+      "difficulty": "Easy",
+      "question_frontend_id": 136,
+      "title": "Single Number",
+      "title_slug": "single-number",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Bit Manipulation",
+          "slug": "bit-manipulation"
         }
       ]
     },
@@ -929,6 +973,26 @@
         {
           "name": "Matrix",
           "slug": "matrix"
+        }
+      ]
+    },
+    "394": {
+      "difficulty": "Medium",
+      "question_frontend_id": 394,
+      "title": "Decode String",
+      "title_slug": "decode-string",
+      "topic_tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Recursion",
+          "slug": "recursion"
         }
       ]
     },
