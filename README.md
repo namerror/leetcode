@@ -33,7 +33,7 @@ You can also run `python3 add.py 36` directly from the repository.
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 80 problems. Easy: 19, Medium: 59, Hard: 2.
+Solved 81 problems. Easy: 19, Medium: 60, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -42,7 +42,7 @@ Solved 80 problems. Easy: 19, Medium: 59, Hard: 2.
 
 | Topic | Solved |
 | --- | ---: |
-| [Array](https://leetcode.com/tag/array/) | 45 |
+| [Array](https://leetcode.com/tag/array/) | 46 |
 | [Hash Table](https://leetcode.com/tag/hash-table/) | 22 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 20 |
 | [String](https://leetcode.com/tag/string/) | 15 |
@@ -57,12 +57,12 @@ Solved 80 problems. Easy: 19, Medium: 59, Hard: 2.
 | [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 7 |
 | [Tree](https://leetcode.com/tag/tree/) | 7 |
+| [Backtracking](https://leetcode.com/tag/backtracking/) | 5 |
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 5 |
 | [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 5 |
 | [Recursion](https://leetcode.com/tag/recursion/) | 5 |
 | [Sliding Window](https://leetcode.com/tag/sliding-window/) | 5 |
-| [Backtracking](https://leetcode.com/tag/backtracking/) | 4 |
 | [Monotonic Stack](https://leetcode.com/tag/monotonic-stack/) | 4 |
 | [Prefix Sum](https://leetcode.com/tag/prefix-sum/) | 4 |
 | [Counting](https://leetcode.com/tag/counting/) | 3 |
@@ -97,7 +97,7 @@ Solved 80 problems. Easy: 19, Medium: 59, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 80
+Total count: 81
 - [1. Two Sum](problems/1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [5. Longest Palindromic Substring](problems/5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
 - [11. Container With Most Water](problems/11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
@@ -108,6 +108,7 @@ Total count: 80
 - [22. Generate Parentheses](problems/22_Generate_Parentheses.py) ([LeetCode](https://leetcode.com/problems/generate-parentheses/))
 - [33. Search in Rotated Sorted Array](problems/33_Search_in_Rotated_Sorted_Array.py) ([LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/))
 - [36. Valid Sudoku](problems/36_Valid_Sudoku.py) ([LeetCode](https://leetcode.com/problems/valid-sudoku/))
+- [46. Permutations](problems/46_Permutations.py) ([LeetCode](https://leetcode.com/problems/permutations/))
 - [49. Group Anagrams](problems/49_Group_Anagrams.py) ([LeetCode](https://leetcode.com/problems/group-anagrams/))
 - [53. Maximum Subarray](problems/53_Maximum_Subarray.py) ([LeetCode](https://leetcode.com/problems/maximum-subarray/))
 - [55. Jump Game](problems/55_Jump_Game.py) ([LeetCode](https://leetcode.com/problems/jump-game/))

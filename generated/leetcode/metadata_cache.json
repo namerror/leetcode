@@ -1064,6 +1064,22 @@
         }
       ]
     },
+    "46": {
+      "difficulty": "Medium",
+      "question_frontend_id": 46,
+      "title": "Permutations",
+      "title_slug": "permutations",
+      "topic_tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Backtracking",
+          "slug": "backtracking"
+        }
+      ]
+    },
     "49": {
       "difficulty": "Medium",
       "question_frontend_id": 49,
