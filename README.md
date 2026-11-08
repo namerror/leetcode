@@ -33,7 +33,7 @@ You can also run `python3 add.py 36` directly from the repository.
 
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_START -->
 ## Progress
-Solved 81 problems. Easy: 19, Medium: 60, Hard: 2.
+Solved 83 problems. Easy: 19, Medium: 62, Hard: 2.
 
 ![Difficulty breakdown](generated/leetcode/difficulty_breakdown.svg)
 
@@ -43,21 +43,21 @@ Solved 81 problems. Easy: 19, Medium: 60, Hard: 2.
 | Topic | Solved |
 | --- | ---: |
 | [Array](https://leetcode.com/tag/array/) | 46 |
-| [Hash Table](https://leetcode.com/tag/hash-table/) | 22 |
+| [Hash Table](https://leetcode.com/tag/hash-table/) | 23 |
 | [Dynamic Programming](https://leetcode.com/tag/dynamic-programming/) | 20 |
-| [String](https://leetcode.com/tag/string/) | 15 |
+| [String](https://leetcode.com/tag/string/) | 16 |
+| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 12 |
 | [Sorting](https://leetcode.com/tag/sorting/) | 12 |
-| [Breadth-First Search](https://leetcode.com/tag/breadth-first-search/) | 11 |
+| [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 10 |
 | [Two Pointers](https://leetcode.com/tag/two-pointers/) | 10 |
 | [Binary Search](https://leetcode.com/tag/binary-search/) | 9 |
-| [Depth-First Search](https://leetcode.com/tag/depth-first-search/) | 9 |
+| [Binary Tree](https://leetcode.com/tag/binary-tree/) | 8 |
 | [Greedy](https://leetcode.com/tag/greedy/) | 8 |
 | [Stack](https://leetcode.com/tag/stack/) | 8 |
-| [Binary Tree](https://leetcode.com/tag/binary-tree/) | 7 |
+| [Tree](https://leetcode.com/tag/tree/) | 8 |
 | [Linked List](https://leetcode.com/tag/linked-list/) | 7 |
 | [Matrix](https://leetcode.com/tag/matrix/) | 7 |
-| [Tree](https://leetcode.com/tag/tree/) | 7 |
-| [Backtracking](https://leetcode.com/tag/backtracking/) | 5 |
+| [Backtracking](https://leetcode.com/tag/backtracking/) | 6 |
 | [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer/) | 5 |
 | [Heap (Priority Queue)](https://leetcode.com/tag/heap-priority-queue/) | 5 |
 | [Math](https://leetcode.com/tag/math/) | 5 |
@@ -97,11 +97,12 @@ Solved 81 problems. Easy: 19, Medium: 60, Hard: 2.
 <!-- AUTO-GENERATED:LEETCODE_DASHBOARD_END -->
 
 ## Index
-Total count: 81
+Total count: 83
 - [1. Two Sum](problems/1_Two_Sum.py) ([LeetCode](https://leetcode.com/problems/two-sum/))
 - [5. Longest Palindromic Substring](problems/5_Longest_Palindromic_Substring.py) ([LeetCode](https://leetcode.com/problems/longest-palindromic-substring/))
 - [11. Container With Most Water](problems/11_Container_with_Most_Water.py) ([LeetCode](https://leetcode.com/problems/container-with-most-water/))
 - [15. 3Sum](problems/15_3Sum.py) ([LeetCode](https://leetcode.com/problems/3sum/))
+- [17. Letter Combinations of a Phone Number](problems/17_Letter_Combinations_of_a_Phone_Number.py) ([LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/))
 - [19. Remove Nth Node From End of List](problems/19_Remove_Nth_Node_From_End_of_List.py) ([LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/))
 - [20. Valid Parentheses](problems/20_Valid_Parentheses.py) ([LeetCode](https://leetcode.com/problems/valid-parentheses/))
 - [21. Merge Two Sorted Lists](problems/21_Merge_Two_Sorted_Lists.py) ([LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/))
@@ -177,5 +178,6 @@ Total count: 81
 - [994. Rotting Oranges](problems/994_Rotting_Oranges.py) ([LeetCode](https://leetcode.com/problems/rotting-oranges/))
 - [1004. Max Consecutive Ones III](problems/1004_Max_Consecutive_Ones_III.py) ([LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/))
 - [1137. N-th Tribonacci Number](problems/1137_Nth_Tribonacci_Number.py) ([LeetCode](https://leetcode.com/problems/n-th-tribonacci-number/))
+- [1448. Count Good Nodes in Binary Tree](problems/1448_Count_Good_Nodes_in_Binary_Tree.py) ([LeetCode](https://leetcode.com/problems/count-good-nodes-in-binary-tree/))
 - [1926. Nearest Exit from Entrance in Maze](problems/1926_Nearest_Exit_from_Entrance_in_Maze.py) ([LeetCode](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/))
 - [3413. Maximum Coins From K Consecutive Bags](problems/3413_Maximum_Coins_From_K_Consecutive_Bags.py) ([LeetCode](https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/))

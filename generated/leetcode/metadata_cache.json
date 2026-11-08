@@ -352,6 +352,30 @@
         }
       ]
     },
+    "1448": {
+      "difficulty": "Medium",
+      "question_frontend_id": 1448,
+      "title": "Count Good Nodes in Binary Tree",
+      "title_slug": "count-good-nodes-in-binary-tree",
+      "topic_tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
+        }
+      ]
+    },
     "146": {
       "difficulty": "Medium",
       "question_frontend_id": 146,
@@ -445,6 +469,26 @@
         {
           "name": "Binary Search",
           "slug": "binary-search"
+        }
+      ]
+    },
+    "17": {
+      "difficulty": "Medium",
+      "question_frontend_id": 17,
+      "title": "Letter Combinations of a Phone Number",
+      "title_slug": "letter-combinations-of-a-phone-number",
+      "topic_tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Backtracking",
+          "slug": "backtracking"
         }
       ]
     },
